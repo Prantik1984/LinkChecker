@@ -1,0 +1,2212 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Products>
+  <BaseControlPanelEntry ControlPanelEntry="ComponentOne Studio">
+    <Key name="DisplayName" type="string" value="ComponentOne Studio" />
+    <Key name="DisplayVersion" type="string" value="20153.2.8" />
+    <Key name="ModifyPath" base="PgmDt" type="stringx" value="Package Cache\{4ABCDD9D-37B0-431C-82D8-EC8DA5ED9AD9}\C1StudiosWebInstaller.exe -u" />
+    <Key name="Publisher" type="string" value="GrapeCity, Inc." />
+    <Key name="UninstallString" base="PgmDt" type="stringx" value="Package Cache\{4ABCDD9D-37B0-431C-82D8-EC8DA5ED9AD9}\C1StudiosWebInstaller.exe -u" />
+    <Key name="URLInfoAbout" type="string" value="http://www.componentone.com" />
+    <Key name="URLUpdateInfo" type="string" value="http://www.componentone.com" />
+    <Key name="Version" type="word" value="2015301" />
+    <Key name="VersionMajor" type="word" value="20153" />
+    <Key name="VersionMinor" type="word" value="1" />
+    <Key name="WindowsInstaller" type="word" value="0" />
+    <Key name="DisplayIcon" type="string" base="ComnFls" value="ComponentOne Icons\C1UniversalIcon.ico" />
+  </BaseControlPanelEntry>
+  <Product name="WinForms" displnm="WinForms" grpnm="Desktop" version="20153.2.3"
+             ControlPanelEntry="ComponentOne Studio for WinForms" pdnm="ComponentOne Studio for WinForms"
+             slntdsplynm="WIN" ISMSI="false"
+             ThemeColor="#00c02a" bckgrnd="http://cellar.componentone.com/ProductImages/Winforms.png" Version="2015 v3" Size="46900" ProgressPanel="wnpg">
+    <DeletableDirs>
+
+
+
+      <!--old directories-->
+      <DeleteableDir base="MyDocuments" val="ComponentOne Samples\Studio for WinForms" newval="ComponentOne Samples\{B08AE240-B998-41A2-B5AA-10C16D8CD2A9}"></DeleteableDir>
+      <DeleteableDir base="PgmFls" val="ComponentOne\Studio for WinForms" newval="ComponentOne\{884BA1C7-BB55-4DA6-837E-16A6046EC84A}"></DeleteableDir>
+      <DeleteableDir base="C1ShortCutsMenu" val="Studio for WinForms" newval="{CA6AC171-5FA1-492F-ADFB-3957E0F912B6}"></DeleteableDir>
+      <!--new direcories-->
+      <DeleteableDir base="MyDocuments" val="ComponentOne Samples\WinForms" newval="ComponentOne Samples\{1F95D82F-5F51-4E78-ADF1-60B702B1CA3C}"></DeleteableDir>
+      <DeleteableDir base="PgmFls" val="ComponentOne\WinForms Edition" newval="ComponentOne\{3F71BC91-4947-4FDD-A7ED-A4DBC292ECA5}"></DeleteableDir>
+      <DeleteableDir base="C1ShortCutsMenu" val="WinForms" newval="{883A4A29-D366-4E7D-B9CF-65F73C1DD272}"></DeleteableDir>
+
+
+      <DeleteableDir base="VS2K12Extensions" val="ComponentOne\C1WinForms" newval="{5A909DFF-9EEA-483A-B3D2-79C400CA473B}"></DeleteableDir>
+      <DeleteableDir base="VS2K13Extensions" val="ComponentOne\C1WinForms" newval="{D449294A-9238-4F37-8429-9DD9E1270FCB}"></DeleteableDir>
+      <DeleteableDir base="VS2K10Extensions" val="ComponentOne\C1WinForms" newval="{BF30D2E5-CFFF-4C86-A65A-0EC75EA4AA64}"></DeleteableDir>
+      <DeleteableDir base="VS2K15Extensions" val="ComponentOne\C1WinForms" newval="{85305F79-827A-4A4A-9D3A-B42F6F6529DB}"></DeleteableDir>
+    </DeletableDirs>
+    <Dirs>
+      <Dir base="MyDocuments" val="ComponentOne Samples\WinForms">
+        <Dir name="" nosubdirs="true">
+          <extract value="http://cellar.componentone.com/staging/studio/Product/WinForms/Samples/Samples.7z" xval="WinSamples.7z"></extract>
+        </Dir>
+      </Dir>
+      <Dir base="C1ShortCutsMenu" val="WinForms">
+        <Dir name="Readmes" nosubdirs="true">
+          <extract></extract>
+        </Dir>
+        <Dir name="Samples" nosubdirs="true">
+          <extract></extract>
+        </Dir>
+      </Dir>
+      <Dir base="PgmFls" val="ComponentOne\WinForms Edition">
+        <Dir name="bin">
+          <Dir name="v2.0" nosubdirs="true">
+            <extract value="http://cellar.componentone.com/staging/studio/Product/WinForms/BinDir/Two.7z" xval="win2.7z"></extract>
+          </Dir>
+          <Dir name="v4.0" nosubdirs="true">
+            <extract value="http://cellar.componentone.com/staging/studio/Product/WinForms/BinDir/Four.7z" xval="win4.7z"></extract>
+          </Dir>
+        </Dir>
+        <Dir name="" nosubdirs="true">
+          <extract value="http://cellar.componentone.com/staging/studio/Product/WinForms/RtDir.7z" xval="winrtdir.7z"></extract>
+        </Dir>
+      </Dir>
+      <Dir base="VS2K10IDE" val="Extensions\ComponentOne">
+        <Dir name="" nosubdirs="true">
+          <extract value="http://cellar.componentone.com/staging/studio/Product/WinForms/Templates/VS2010/C1WinForms2010.7z" xval="wintmp10.7z"></extract>
+        </Dir>
+      </Dir>
+      <Dir base="VS2K12IDE" val="Extensions\ComponentOne">
+        <Dir name="" nosubdirs="true">
+          <extract value="http://cellar.componentone.com/staging/studio/Product/WinForms/Templates/VS2012/C1WinForms2012.7z" xval="wintmp12.7z"></extract>
+        </Dir>
+      </Dir>
+      <Dir base="VS2K13IDE" val="Extensions\ComponentOne">
+        <Dir name="" nosubdirs="true">
+          <extract value="http://cellar.componentone.com/staging/studio/Product/WinForms/Templates/VS2013/C1WinForms2013.7z" xval="wintmp13.7z"></extract>
+        </Dir>
+      </Dir>
+      <Dir base="VS2K15IDE" val="Extensions\ComponentOne">
+        <Dir name="" nosubdirs="true">
+          <extract value="http://cellar.componentone.com/staging/studio/Product/WinForms/Templates/VS2015/C1WinForms2015.7z" xval="wintmp15.7z"></extract>
+        </Dir>
+      </Dir>
+    </Dirs>
+    <Templates></Templates>
+    <ShortCuts>
+      <ShortCut LongName="Online Help">
+        <Target base="PgmFls" dir="ComponentOne\WinForms Edition\OnlineHelp">C1StudioNetHelp.url</Target>
+        <Location base="C1ShortCutsMenu" dir="WinForms" />
+        <icon>C1NetHelp.ico</icon>
+      </ShortCut>
+      <ShortCut LongName="ChangeLog">
+        <Target base="PgmFls" dir="ComponentOne\WinForms Edition">ChangeLog.html</Target>
+        <Location base="C1ShortCutsMenu" dir="WinForms" />
+        <icon>C1NetHelp.ico</icon>
+      </ShortCut>
+      <ShortCut LongName="Readme">
+        <Target base="PgmFls" dir="ComponentOne\WinForms Edition">readme.txt</Target>
+        <Location base="C1ShortCutsMenu" dir="WinForms\Readmes" />
+      </ShortCut>
+      <ShortCut LongName="C1Reports Designer">
+        <Target base="PgmFls" dir="ComponentOne\Apps\v4.0">C1ReportDesigner.exe</Target>
+        <Location base="C1ShortCutsMenu" dir="Apps" />
+      </ShortCut>
+      <ShortCut LongName="C1Reports Scheduler">
+        <Target base="PgmFls" dir="ComponentOne\Apps\v4.0">C1ReportsScheduler.exe</Target>
+        <Location base="C1ShortCutsMenu" dir="Apps" />
+      </ShortCut>
+      <ShortCut LongName="C1Reports Viewer">
+        <Target base="PgmFls" dir="ComponentOne\Apps\v4.0">C1dView32.exe</Target>
+        <Location base="C1ShortCutsMenu" dir="Apps" />
+      </ShortCut>
+      <ShortCut LongName="C1DataDesigner">
+        <Target base="PgmFls" dir="ComponentOne\WinForms Edition\bin\v2.0\Designer">C1.Data.Designer.2.exe</Target>
+        <Location base="C1ShortCutsMenu" dir="Apps" />
+      </ShortCut>
+      <ShortCut LongName="C1DictionaryEditor">
+        <Target base="PgmFls" dir="ComponentOne\Apps\v4.0">C1DictionaryEditor.4.exe</Target>
+        <Location base="C1ShortCutsMenu" dir="Apps" />
+      </ShortCut>
+      <ShortCut LongName="C1ThemeDesigner">
+        <Target base="PgmFls" dir="ComponentOne\Apps\v4.0">C1ThemeDesigner.4.exe</Target>
+        <Location base="C1ShortCutsMenu" dir="Apps" />
+      </ShortCut>
+      <ShortCut LongName="C1FlexReportDesigner">
+        <Target base="PgmFls" dir="ComponentOne\Apps\v4.0">C1FlexReportDesigner.4.exe</Target>
+        <Location base="C1ShortCutsMenu" dir="Apps" />
+      </ShortCut>
+      <ShortCut LongName="ControlExplorer">
+        <Target base="MyDocuments" dir="ComponentOne Samples\WinForms\ControlExplorer">ControlExplorer2010.sln</Target>
+        <Location base="C1ShortCutsMenu" dir="WinForms\Samples" />
+      </ShortCut>
+      <ShortCut LongName="TouchDemo">
+        <Target base="MyDocuments" dir="ComponentOne Samples\WinForms\TouchDemo">Touch.Demo.2010.sln</Target>
+        <Location base="C1ShortCutsMenu" dir="WinForms\Samples" />
+      </ShortCut>
+      <ShortCut LongName="BarCode Samples">
+        <Target base="ComnFls" dir="ComponentOne Shared\SampleExplorerV4">SampleExplorer.exe</Target>
+        <WorkingDirectory base="MyDocuments" dir="ComponentOne Samples\WinForms" />
+        <Location base="C1ShortCutsMenu" dir="WinForms\Samples" />
+        <Arguments>
+          <arg><![CDATA[-t"BarCode for WinForms"  -f"*" -aWDExpress.exe,VCSExpress.exe,VBExpress.exe -ni]]></arg>
+          <arg base="MyDocuments" dir="ComponentOne Samples" type="PathCombine">WinForms\C1BarCode</arg>
+          <arg type="VSVersion" />
+        </Arguments>
+      </ShortCut>
+      <ShortCut LongName="Chart Samples">
+        <Target base="ComnFls" dir="ComponentOne Shared\SampleExplorerV4">SampleExplorer.exe</Target>
+        <WorkingDirectory base="MyDocuments" dir="ComponentOne Samples\WinForms" />
+        <Location base="C1ShortCutsMenu" dir="WinForms\Samples" />
+        <Arguments>
+          <arg><![CDATA[-t"Chart for WinForms"  -f"*" -aWDExpress.exe,VCSExpress.exe,VBExpress.exe -ni]]></arg>
+          <arg base="MyDocuments" dir="ComponentOne Samples" type="PathCombine">WinForms\C1Chart</arg>
+          <arg type="VSVersion" />
+        </Arguments>
+      </ShortCut>
+      <ShortCut LongName="Menus and Toolbars Samples">
+        <Target base="ComnFls" dir="ComponentOne Shared\SampleExplorerV4">SampleExplorer.exe</Target>
+        <WorkingDirectory base="MyDocuments" dir="ComponentOne Samples\WinForms" />
+        <Location base="C1ShortCutsMenu" dir="WinForms\Samples" />
+        <Arguments>
+          <arg><![CDATA[-t"Menus and Toolbars for WinForms"  -f"*" -aWDExpress.exe,VCSExpress.exe,VBExpress.exe -ni]]></arg>
+          <arg base="MyDocuments" dir="ComponentOne Samples" type="PathCombine">WinForms\C1Command</arg>
+          <arg type="VSVersion" />
+        </Arguments>
+      </ShortCut>
+      <ShortCut LongName="DynamicHelp Samples">
+        <Target base="ComnFls" dir="ComponentOne Shared\SampleExplorerV4">SampleExplorer.exe</Target>
+        <WorkingDirectory base="MyDocuments" dir="ComponentOne Samples\WinForms" />
+        <Location base="C1ShortCutsMenu" dir="WinForms\Samples" />
+        <Arguments>
+          <arg><![CDATA[-t"DynamicHelp for WinForms"  -f"*" -aWDExpress.exe,VCSExpress.exe,VBExpress.exe -ni]]></arg>
+          <arg base="MyDocuments" dir="ComponentOne Samples" type="PathCombine">WinForms\C1DynamicHelp</arg>
+          <arg type="VSVersion" />
+        </Arguments>
+      </ShortCut>
+      <ShortCut LongName="Editor Samples">
+        <Target base="ComnFls" dir="ComponentOne Shared\SampleExplorerV4">SampleExplorer.exe</Target>
+        <WorkingDirectory base="MyDocuments" dir="ComponentOne Samples\WinForms" />
+        <Location base="C1ShortCutsMenu" dir="WinForms\Samples" />
+        <Arguments>
+          <arg><![CDATA[-t"Editor for WinForms"  -f"*" -aWDExpress.exe,VCSExpress.exe,VBExpress.exe -ni]]></arg>
+          <arg base="MyDocuments" dir="ComponentOne Samples" type="PathCombine">WinForms\C1Editor</arg>
+          <arg type="VSVersion" />
+        </Arguments>
+      </ShortCut>
+      <ShortCut LongName="Excel Samples">
+        <Target base="ComnFls" dir="ComponentOne Shared\SampleExplorerV4">SampleExplorer.exe</Target>
+        <WorkingDirectory base="MyDocuments" dir="ComponentOne Samples\WinForms" />
+        <Location base="C1ShortCutsMenu" dir="WinForms\Samples" />
+        <Arguments>
+          <arg><![CDATA[-t"Excel for WinForms"  -f"*" -aWDExpress.exe,VCSExpress.exe,VBExpress.exe -ni]]></arg>
+          <arg base="MyDocuments" dir="ComponentOne Samples" type="PathCombine">WinForms\C1Excel</arg>
+          <arg type="VSVersion" />
+        </Arguments>
+      </ShortCut>
+      <ShortCut LongName="FlexGrid Samples">
+        <Target base="ComnFls" dir="ComponentOne Shared\SampleExplorerV4">SampleExplorer.exe</Target>
+        <WorkingDirectory base="MyDocuments" dir="ComponentOne Samples\WinForms" />
+        <Location base="C1ShortCutsMenu" dir="WinForms\Samples" />
+        <Arguments>
+          <arg><![CDATA[-t"FlexGrid for WinForms"  -f"*" -aWDExpress.exe,VCSExpress.exe,VBExpress.exe -ni]]></arg>
+          <arg base="MyDocuments" dir="ComponentOne Samples" type="PathCombine">WinForms\C1FlexGrid</arg>
+          <arg type="VSVersion" />
+        </Arguments>
+      </ShortCut>
+      <ShortCut LongName="GanttView Samples">
+        <Target base="ComnFls" dir="ComponentOne Shared\SampleExplorerV4">SampleExplorer.exe</Target>
+        <WorkingDirectory base="MyDocuments" dir="ComponentOne Samples\WinForms" />
+        <Location base="C1ShortCutsMenu" dir="WinForms\Samples" />
+        <Arguments>
+          <arg><![CDATA[-t"GanttView for WinForms"  -f"*" -aWDExpress.exe,VCSExpress.exe,VBExpress.exe -ni]]></arg>
+          <arg base="MyDocuments" dir="ComponentOne Samples" type="PathCombine">WinForms\C1GanttView</arg>
+          <arg type="VSVersion" />
+        </Arguments>
+      </ShortCut>
+      <ShortCut LongName="Gauge Samples">
+        <Target base="ComnFls" dir="ComponentOne Shared\SampleExplorerV4">SampleExplorer.exe</Target>
+        <WorkingDirectory base="MyDocuments" dir="ComponentOne Samples\WinForms" />
+        <Location base="C1ShortCutsMenu" dir="WinForms\Samples" />
+        <Arguments>
+          <arg><![CDATA[-t"Gauge for WinForms"  -f"*" -aWDExpress.exe,VCSExpress.exe,VBExpress.exe -ni]]></arg>
+          <arg base="MyDocuments" dir="ComponentOne Samples" type="PathCombine">WinForms\C1Gauge</arg>
+          <arg type="VSVersion" />
+        </Arguments>
+      </ShortCut>
+      <ShortCut LongName="InputPanel Samples">
+        <Target base="ComnFls" dir="ComponentOne Shared\SampleExplorerV4">SampleExplorer.exe</Target>
+        <WorkingDirectory base="MyDocuments" dir="ComponentOne Samples\WinForms" />
+        <Location base="C1ShortCutsMenu" dir="WinForms\Samples" />
+        <Arguments>
+          <arg><![CDATA[-t"InputPanel for WinForms"  -f"*" -aWDExpress.exe,VCSExpress.exe,VBExpress.exe -ni]]></arg>
+          <arg base="MyDocuments" dir="ComponentOne Samples" type="PathCombine">WinForms\C1InputPanel</arg>
+          <arg type="VSVersion" />
+        </Arguments>
+      </ShortCut>
+      <ShortCut LongName="Input Samples">
+        <Target base="ComnFls" dir="ComponentOne Shared\SampleExplorerV4">SampleExplorer.exe</Target>
+        <WorkingDirectory base="MyDocuments" dir="ComponentOne Samples\WinForms" />
+        <Location base="C1ShortCutsMenu" dir="WinForms\Samples" />
+        <Arguments>
+          <arg><![CDATA[-t"Input for WinForms"  -f"*" -aWDExpress.exe,VCSExpress.exe,VBExpress.exe -ni]]></arg>
+          <arg base="MyDocuments" dir="ComponentOne Samples" type="PathCombine">WinForms\C1Input</arg>
+          <arg type="VSVersion" />
+        </Arguments>
+      </ShortCut>
+      <ShortCut LongName="List Samples">
+        <Target base="ComnFls" dir="ComponentOne Shared\SampleExplorerV4">SampleExplorer.exe</Target>
+        <WorkingDirectory base="MyDocuments" dir="ComponentOne Samples\WinForms" />
+        <Location base="C1ShortCutsMenu" dir="WinForms\Samples" />
+        <Arguments>
+          <arg><![CDATA[-t"List for WinForms"  -f"*" -aWDExpress.exe,VCSExpress.exe,VBExpress.exe -ni]]></arg>
+          <arg base="MyDocuments" dir="ComponentOne Samples" type="PathCombine">WinForms\C1List</arg>
+          <arg type="VSVersion" />
+        </Arguments>
+      </ShortCut>
+      <ShortCut LongName="Pdf Samples">
+        <Target base="ComnFls" dir="ComponentOne Shared\SampleExplorerV4">SampleExplorer.exe</Target>
+        <WorkingDirectory base="MyDocuments" dir="ComponentOne Samples\WinForms" />
+        <Location base="C1ShortCutsMenu" dir="WinForms\Samples" />
+        <Arguments>
+          <arg><![CDATA[-t"Pdf for WinForms"  -f"*" -aWDExpress.exe,VCSExpress.exe,VBExpress.exe -ni]]></arg>
+          <arg base="MyDocuments" dir="ComponentOne Samples" type="PathCombine">WinForms\C1Pdf</arg>
+          <arg type="VSVersion" />
+        </Arguments>
+      </ShortCut>
+      <ShortCut LongName="Report Samples">
+        <Target base="ComnFls" dir="ComponentOne Shared\SampleExplorerV4">SampleExplorer.exe</Target>
+        <WorkingDirectory base="MyDocuments" dir="ComponentOne Samples\WinForms" />
+        <Location base="C1ShortCutsMenu" dir="WinForms\Samples" />
+        <Arguments>
+          <arg><![CDATA[-t"Report for WinForms"  -f"*" -aWDExpress.exe,VCSExpress.exe,VBExpress.exe -ni]]></arg>
+          <arg base="MyDocuments" dir="ComponentOne Samples" type="PathCombine">WinForms\C1Report</arg>
+          <arg type="VSVersion" />
+        </Arguments>
+      </ShortCut>
+      <ShortCut LongName="Ribbon Samples">
+        <Target base="ComnFls" dir="ComponentOne Shared\SampleExplorerV4">SampleExplorer.exe</Target>
+        <WorkingDirectory base="MyDocuments" dir="ComponentOne Samples\WinForms" />
+        <Location base="C1ShortCutsMenu" dir="WinForms\Samples" />
+        <Arguments>
+          <arg><![CDATA[-t"Ribbon for WinForms"  -f"*" -aWDExpress.exe,VCSExpress.exe,VBExpress.exe -ni]]></arg>
+          <arg base="MyDocuments" dir="ComponentOne Samples" type="PathCombine">WinForms\C1Ribbon</arg>
+          <arg type="VSVersion" />
+        </Arguments>
+      </ShortCut>
+      <ShortCut LongName="Schedule Samples">
+        <Target base="ComnFls" dir="ComponentOne Shared\SampleExplorerV4">SampleExplorer.exe</Target>
+        <WorkingDirectory base="MyDocuments" dir="ComponentOne Samples\WinForms" />
+        <Location base="C1ShortCutsMenu" dir="WinForms\Samples" />
+        <Arguments>
+          <arg><![CDATA[-t"Schedule for WinForms"  -f"*" -aWDExpress.exe,VCSExpress.exe,VBExpress.exe -ni]]></arg>
+          <arg base="MyDocuments" dir="ComponentOne Samples" type="PathCombine">WinForms\C1Schedule</arg>
+          <arg type="VSVersion" />
+        </Arguments>
+      </ShortCut>
+      <ShortCut LongName="Sizer Samples">
+        <Target base="ComnFls" dir="ComponentOne Shared\SampleExplorerV4">SampleExplorer.exe</Target>
+        <WorkingDirectory base="MyDocuments" dir="ComponentOne Samples\WinForms" />
+        <Location base="C1ShortCutsMenu" dir="WinForms\Samples" />
+        <Arguments>
+          <arg><![CDATA[-t"Sizer for WinForms"  -f"*" -aWDExpress.exe,VCSExpress.exe,VBExpress.exe -ni]]></arg>
+          <arg base="MyDocuments" dir="ComponentOne Samples" type="PathCombine">WinForms\C1Sizer</arg>
+          <arg type="VSVersion" />
+        </Arguments>
+      </ShortCut>
+      <ShortCut LongName="SpellChecker Samples">
+        <Target base="ComnFls" dir="ComponentOne Shared\SampleExplorerV4">SampleExplorer.exe</Target>
+        <WorkingDirectory base="MyDocuments" dir="ComponentOne Samples\WinForms" />
+        <Location base="C1ShortCutsMenu" dir="WinForms\Samples" />
+        <Arguments>
+          <arg><![CDATA[-t"SpellChecker for WinForms"  -f"*" -aWDExpress.exe,VCSExpress.exe,VBExpress.exe -ni]]></arg>
+          <arg base="MyDocuments" dir="ComponentOne Samples" type="PathCombine">WinForms\C1SpellChecker</arg>
+          <arg type="VSVersion" />
+        </Arguments>
+      </ShortCut>
+      <ShortCut LongName="SplitContainer Samples">
+        <Target base="ComnFls" dir="ComponentOne Shared\SampleExplorerV4">SampleExplorer.exe</Target>
+        <WorkingDirectory base="MyDocuments" dir="ComponentOne Samples\WinForms" />
+        <Location base="C1ShortCutsMenu" dir="WinForms\Samples" />
+        <Arguments>
+          <arg><![CDATA[-t"SplitContainer for WinForms"  -f"*" -aWDExpress.exe,VCSExpress.exe,VBExpress.exe -ni]]></arg>
+          <arg base="MyDocuments" dir="ComponentOne Samples" type="PathCombine">WinForms\C1SplitContainer</arg>
+          <arg type="VSVersion" />
+        </Arguments>
+      </ShortCut>
+      <ShortCut LongName="DataSource Samples">
+        <Target base="ComnFls" dir="ComponentOne Shared\SampleExplorerV4">SampleExplorer.exe</Target>
+        <WorkingDirectory base="MyDocuments" dir="ComponentOne Samples\WinForms" />
+        <Location base="C1ShortCutsMenu" dir="WinForms\Samples" />
+        <Arguments>
+          <arg><![CDATA[-t"DataSource for WinForms"  -f"*" -aWDExpress.exe,VCSExpress.exe,VBExpress.exe -ni]]></arg>
+          <arg base="MyDocuments" dir="ComponentOne Samples" type="PathCombine">WinForms\C1DataSource</arg>
+          <arg type="VSVersion" />
+        </Arguments>
+      </ShortCut>
+      <ShortCut LongName="SuperTooltip Samples">
+        <Target base="ComnFls" dir="ComponentOne Shared\SampleExplorerV4">SampleExplorer.exe</Target>
+        <WorkingDirectory base="MyDocuments" dir="ComponentOne Samples\WinForms" />
+        <Location base="C1ShortCutsMenu" dir="WinForms\Samples" />
+        <Arguments>
+          <arg><![CDATA[-t"SuperTooltip for WinForms"  -f"*" -aWDExpress.exe,VCSExpress.exe,VBExpress.exe -ni]]></arg>
+          <arg base="MyDocuments" dir="ComponentOne Samples" type="PathCombine">WinForms\C1SuperTooltip</arg>
+          <arg type="VSVersion" />
+        </Arguments>
+      </ShortCut>
+      <ShortCut LongName="TileControl Samples">
+        <Target base="ComnFls" dir="ComponentOne Shared\SampleExplorerV4">SampleExplorer.exe</Target>
+        <WorkingDirectory base="MyDocuments" dir="ComponentOne Samples\WinForms" />
+        <Location base="C1ShortCutsMenu" dir="WinForms\Samples" />
+        <Arguments>
+          <arg><![CDATA[-t"TileControl for WinForms"  -f"*" -aWDExpress.exe,VCSExpress.exe,VBExpress.exe -ni]]></arg>
+          <arg base="MyDocuments" dir="ComponentOne Samples" type="PathCombine">WinForms\C1TileControl</arg>
+          <arg type="VSVersion" />
+        </Arguments>
+      </ShortCut>
+      <ShortCut LongName="TrueDBGrid Samples">
+        <Target base="ComnFls" dir="ComponentOne Shared\SampleExplorerV4">SampleExplorer.exe</Target>
+        <WorkingDirectory base="MyDocuments" dir="ComponentOne Samples\WinForms" />
+        <Location base="C1ShortCutsMenu" dir="WinForms\Samples" />
+        <Arguments>
+          <arg><![CDATA[-t"TrueDBGrid for WinForms"  -f"*" -aWDExpress.exe,VCSExpress.exe,VBExpress.exe -ni]]></arg>
+          <arg base="MyDocuments" dir="ComponentOne Samples" type="PathCombine">WinForms\C1TrueDBGrid</arg>
+          <arg type="VSVersion" />
+        </Arguments>
+      </ShortCut>
+      <ShortCut LongName="Win7Pack Samples">
+        <Target base="ComnFls" dir="ComponentOne Shared\SampleExplorerV4">SampleExplorer.exe</Target>
+        <WorkingDirectory base="MyDocuments" dir="ComponentOne Samples\WinForms" />
+        <Location base="C1ShortCutsMenu" dir="WinForms\Samples" />
+        <Arguments>
+          <arg><![CDATA[-t"Win7Pack for WinForms" -f"*" -aWDExpress.exe,VCSExpress.exe,VBExpress.exe -ni]]></arg>
+          <arg base="MyDocuments" dir="ComponentOne Samples" type="PathCombine">WinForms\C1Win7Pack</arg>
+          <arg type="VSVersion" />
+        </Arguments>
+      </ShortCut>
+      <ShortCut LongName="Zip Samples">
+        <Target base="ComnFls" dir="ComponentOne Shared\SampleExplorerV4">SampleExplorer.exe</Target>
+        <WorkingDirectory base="MyDocuments" dir="ComponentOne Samples\WinForms" />
+        <Location base="C1ShortCutsMenu" dir="WinForms\Samples" />
+        <Arguments>
+          <arg><![CDATA[-t"Zip for WinForms"  -f"*" -aWDExpress.exe,VCSExpress.exe,VBExpress.exe -ni]]></arg>
+          <arg base="MyDocuments" dir="ComponentOne Samples" type="PathCombine">WinForms\C1Zip</arg>
+          <arg type="VSVersion" />
+        </Arguments>
+      </ShortCut>
+      <ShortCut LongName="C1Olap Samples">
+        <Target base="ComnFls" dir="ComponentOne Shared\SampleExplorerV4">SampleExplorer.exe</Target>
+        <WorkingDirectory base="MyDocuments" dir="ComponentOne Samples\WinForms" />
+        <Location base="C1ShortCutsMenu" dir="WinForms\Samples" />
+        <Arguments>
+          <arg><![CDATA[-t"ComponentOne OLAP for WinForms"  -f"*" -aWDExpress.exe,VCSExpress.exe,VBExpress.exe -ni]]></arg>
+          <arg base="MyDocuments" dir="ComponentOne Samples" type="PathCombine">WinForms\C1Olap</arg>
+          <arg type="VSVersion" />
+        </Arguments>
+      </ShortCut>
+    </ShortCuts>
+    <RegistryKeys>
+      <RegistryKey base="HKLM" bsvalue="SOFTWARE\Microsoft\.NETFramework\v2.0.50727\AssemblyFoldersEx" name="C1 WinForms">
+        <Default value="ComponentOne\WinForms Edition\bin\v2.0" rtdir="pgmfls"></Default>
+        <ChildKeys>
+          <ChildKey name="ToolBox">
+            <str name="TabName" value="C1 WinForms 2.0"></str>
+            <str name="Update" value="dttm"></str>
+          </ChildKey>
+
+        </ChildKeys>
+      </RegistryKey>
+      <RegistryKey base="HKLM" bsvalue="SOFTWARE\Microsoft\.NETFramework\v2.0.50727\AssemblyFoldersEx" name="C1WinformsDesigner">
+        <Default value="ComponentOne\WinForms Edition\bin\v2.0\Designer" rtdir="pgmfls"></Default>
+      </RegistryKey>
+      <RegistryKey base="HKLM" bsvalue="SOFTWARE\Microsoft\.NETFramework\v4.0.30319\AssemblyFoldersEx" name="C1 WinForms">
+        <Default value="ComponentOne\WinForms Edition\bin\v4.0" rtdir="pgmfls"></Default>
+        <ChildKeys>
+          <ChildKey name="ToolBox">
+            <str name="TabName" value="C1 WinForms 4.0"></str>
+            <str name="Update" value="dttm"></str>
+          </ChildKey>
+
+        </ChildKeys>
+      </RegistryKey>
+      <RegistryKey base="HKLM" bsvalue="SOFTWARE\Microsoft\.NETFramework\v4.0.30319\AssemblyFoldersEx" name="C1WinformsDesigner">
+        <Default value="ComponentOne\WinForms Edition\bin\v4.0\Designer" rtdir="pgmfls"></Default>
+      </RegistryKey>
+      <RegistryKey base="HKCR" bsvalue="" name=".flxr">
+        <Default value="C1FlexReport"></Default>
+      </RegistryKey>
+      <RegistryKey base="HKCR" bsvalue="" name="C1FlexReport"/>
+
+
+      <RegistryKey base="HKCR" bsvalue="C1FlexReport" name="DefaultIcon">
+        <Default value="ComponentOne\Apps\v4.0\C1FlexReportDesigner.4.exe" rtdir="pgmfls"></Default>
+
+      </RegistryKey>
+
+      <RegistryKey base="HKCR" bsvalue="C1FlexReport\Shell\Open" name="Command">
+        <Default value="ComponentOne\Apps\v4.0\C1FlexReportDesigner.4.exe '%1'" rtdir="pgmfls"></Default>
+
+      </RegistryKey>
+      <RegistryKey base="HKCU" bsvalue="SOFTWARE\ComponentOne" name="C1FlexReportDesigner.4">
+        <Key name="ApplicationPath" type="string" value="ComponentOne\Apps\v4.0\C1FlexReportDesigner.4.exe" base="PgmFls" />
+      </RegistryKey>
+      <RegistryKey base="HKCU" bsvalue="SOFTWARE\ComponentOne" name="C1ReportDesigner.2">
+        <Key name="ApplicationPath" type="string" value="ComponentOne\Apps\v2.0\C1ReportDesigner.exe" base="PgmFls" />
+
+      </RegistryKey>
+    </RegistryKeys>
+    <GacDlls>
+      <GacDll nm="C1.Data.2" pth="ComponentOne\WinForms Edition\bin\v2.0" base="PgmFls" />
+      <GacDll nm="C1.Data.Design.2" pth="ComponentOne\WinForms Edition\bin\v2.0\Designer" base="PgmFls" />
+      <GacDll nm="C1.Data.Express.2" pth="ComponentOne\WinForms Edition\bin\v2.0" base="PgmFls" />
+      <GacDll nm="C1.C1DataExtender.2" pth="ComponentOne\WinForms Edition\bin\v2.0" base="PgmFls" />
+    </GacDlls>
+    <Blurb>
+      65+ Smart and powerful WinForms controls for rapid
+      UI development. Supports .NET 2.0 and higher.
+    </Blurb>
+    <ControlRegistry>
+      <Keys>
+        <Key name="DisplayName" type="string" value="ComponentOne Studio for WinForms" />
+        <Key name="DisplayVersion" type="string" value="20153.2.3" />
+        <Key name="Publisher" type="string" value="GrapeCity, Inc." />
+        <Key name="URLInfoAbout" type="string" value="http://www.componentone.com" />
+        <Key name="URLUpdateInfo" type="string" value="http://www.componentone.com" />
+        <Key name="Version" type="word" value="2015202" />
+        <Key name="VersionMajor" type="word" value="20152" />
+        <Key name="VersionMinor" type="word" value="2" />
+        <Key name="WindowsInstaller" type="word" value="0" />
+      </Keys>
+    </ControlRegistry>
+  </Product>
+
+  <Product name="MVC" displnm="ASP.NET MVC" grpnm="Web" version="20153.1.14"
+        ControlPanelEntry="ComponentOne Studio for MVC" pdnm="ComponentOne Studio for MVC"
+        slntdsplynm="MVC" ISMSI="false"
+       ThemeColor="#f17b09" bckgrnd="http://cellar.componentone.com/ProductImages/MVC.png" Version="2015 v2" Size="30200" ProgressPanel="mvcpg">
+    <InstallCondition><![CDATA[(('ISNET35' <> '') Or ('ISNET40' <> '') Or ('ISNET45' <> '')) ]]></InstallCondition>
+    <DeletableDirs>
+      <!--old directories-->
+      <DeleteableDir base="MyDocuments" val="ComponentOne Samples\Studio for ASP.NET MVC" newval="ComponentOne Samples\{FA929E9C-A8B7-4BC3-B58A-B3FA065A2C3B}"></DeleteableDir>
+      <DeleteableDir base="PgmFls" val="ComponentOne\Studio for ASP.NET MVC" newval="ComponentOne\{D9442B06-698C-475C-A51B-E2278E6634E3}"></DeleteableDir>
+      <DeleteableDir base="C1ShortCutsMenu" val="Studio for ASP.NET MVC" newval="{73385472-2631-4FBC-8646-8A21C4B3CE9E}"></DeleteableDir>
+      <!--new directories-->
+      <DeleteableDir base="MyDocuments" val="ComponentOne Samples\ASP.NET MVC" newval="ComponentOne Samples\{4FF68F0F-0174-49DE-A146-3F0027A40644}"></DeleteableDir>
+      <DeleteableDir base="PgmFls" val="ComponentOne\ASP.NET MVC Edition" newval="ComponentOne\{0ACDC7F0-E5FB-4AD8-8D47-FFEAE29827EE}"></DeleteableDir>
+      <DeleteableDir base="C1ShortCutsMenu" val="ASP.NET MVC" newval="{EF6E06D7-71DD-44AB-981D-3674513326ED}"></DeleteableDir>
+
+      <DeleteableDir base="VS2K10Extensions" val="ComponentOne\C1MVC" newval="ComponentOne\{F3941728-C408-40FB-9196-2312D837860C}"></DeleteableDir>
+      <DeleteableDir base="VS2K12Extensions" val="ComponentOne\C1MVC" newval="ComponentOne\{B1C3208E-C06B-4E42-95F0-399C707394AD}"></DeleteableDir>
+      <DeleteableDir base="VS2K13Extensions" val="ComponentOne\C1MVC" newval="ComponentOne\{22B46249-26D5-4540-AFCA-3A2D76C295C0}"></DeleteableDir>
+      <DeleteableDir base="VS2K13Extensions" val="ComponentOne\C1MVC" newval="ComponentOne\{22B46249-26D5-4540-AFCA-3A2D76C295C0}"></DeleteableDir>
+      <DeleteableDir base="VS2K15Extensions" val="ComponentOne\C1MVC" newval="ComponentOne\{A1BC369F-D128-414E-A418-E5921C21D592}"></DeleteableDir>
+      <DeleteableDir base="VS2K15Extensions" val="ComponentOne\C1MVC6" newval="ComponentOne\{CBDE7E72-AE08-4551-ADEA-F0D9B2234C91}"></DeleteableDir>
+    </DeletableDirs>
+    <Dirs>
+      <Dir base="PgmFls" val="ComponentOne\ASP.NET MVC Edition">
+        <extract value="http://cellar.componentone.com/staging/studio/Product/ASPNETMVC/MVCPGM.7z" xval="MVCPGM.7z"></extract>
+
+      </Dir>
+      <Dir base="MyDocuments" val="ComponentOne Samples\ASP.NET MVC">
+        <extract value="http://cellar.componentone.com/staging/studio/Product/ASPNETMVC/Samples.7z" xval="MVCSamples.7z"></extract>
+      </Dir>
+
+      <Dir base="C1ShortCutsMenu" val="ASP.NET MVC">
+        <Dir name="Readmes" nosubdirs="true">
+          <extract></extract>
+        </Dir>
+        <Dir name="Samples" nosubdirs="true">
+          <extract></extract>
+        </Dir>
+        <Dir name="OnlineHelp" nosubdirs="true">
+          <extract></extract>
+        </Dir>
+      </Dir>
+      <Dir base="VS2K10IDE" val="Extensions\ComponentOne">
+        <Dir base="VS2K10IDE" val="Extensions\ComponentOne">
+          <Dir name="" nosubdirs="true">
+            <extract value="http://cellar.componentone.com/staging/studio/Product/ASPNETMVC/C1MVC2010.7z" xval="C1MVC2010.7z"></extract>
+          </Dir>
+        </Dir>
+        <Dir base="VS2K12IDE" val="Extensions\ComponentOne">
+          <Dir name="" nosubdirs="true">
+            <extract value="http://cellar.componentone.com/staging/studio/Product/ASPNETMVC/C1MVC2012.7z" xval="C1MVC2012.7z"></extract>
+          </Dir>
+        </Dir>
+        <Dir base="VS2K13IDE" val="Extensions\ComponentOne">
+          <Dir name="" nosubdirs="true">
+            <extract value="http://cellar.componentone.com/staging/studio/Product/ASPNETMVC/C1MVC.7z" xval="C1MVC2013.7z"></extract>
+          </Dir>
+        </Dir>
+        <Dir base="VS2K15IDE" val="Extensions\ComponentOne">
+          <Dir name="" nosubdirs="true">
+            <extract value="http://cellar.componentone.com/staging/studio/Product/ASPNETMVC/C1MVC.7z" xval="C1MVC2015.7z"></extract>
+            <extract value="http://cellar.componentone.com/staging/studio/Product/ASPNETMVC/C1MVC6.7z" xval="C1MVC6.7z"></extract>
+          </Dir>
+        </Dir>
+
+      </Dir>
+    </Dirs>
+    <GacDlls>
+      <GacDll nm="C1.Web.Mvc" pth="ComponentOne\ASP.NET MVC Edition\Bin" base="PgmFls" />
+      <GacDll nm="C1.C1Excel.4" pth="ComponentOne\ASP.NET MVC Edition\Bin" base="PgmFls" />
+      <GacDll nm="C1.C1Pdf.4" pth="ComponentOne\ASP.NET MVC Edition\Bin" base="PgmFls" />
+      <GacDll nm="C1.C1Zip.4" pth="ComponentOne\ASP.NET MVC Edition\Bin" base="PgmFls" />
+      <GacDll nm="C1.Web.Mvc.Finance" pth="ComponentOne\ASP.NET MVC Edition\Bin" base="PgmFls" />
+    </GacDlls>
+    <ShortCuts>
+      <ShortCut LongName="ASP.NET MVC Tools">
+        <Target base="PgmFls" dir="ComponentOne\ASP.NET MVC Edition\MVC Classic">readme.txt</Target>
+        <Location base="C1ShortCutsMenu" dir="ASP.NET MVC\Readmes" />
+      </ShortCut>
+      <ShortCut LongName="ASP.NET MVC">
+        <Target base="PgmFls" dir="ComponentOne\ASP.NET MVC Edition">readme.txt</Target>
+        <Location base="C1ShortCutsMenu" dir="ASP.NET MVC\Readmes" />
+      </ShortCut>
+      <ShortCut LongName="Online Help MVC Classic">
+        <Target base="PgmFls" dir="ComponentOne\ASP.NET MVC Edition\MVC Classic\OnlineHelp">C1StudioAspMVCClassicHelp.url</Target>
+        <Location base="C1ShortCutsMenu" dir="ASP.NET MVC\OnlineHelp" />
+        <icon>C1NetHelp.ico</icon>
+      </ShortCut>
+      <ShortCut LongName="Online Help">
+        <Target base="PgmFls" dir="ComponentOne\ASP.NET MVC Edition\OnlineHelp">C1StudioAspMVCHelp.url</Target>
+        <Location base="C1ShortCutsMenu" dir="ASP.NET MVC\OnlineHelp" />
+        <icon>C1NetHelp.ico</icon>
+      </ShortCut>
+      <ShortCut LongName="ASP.NET MVC Samples">
+        <Target base="ComnFls" dir="ComponentOne Shared\SampleExplorerV4">SampleExplorer.exe</Target>
+        <Location base="C1ShortCutsMenu" dir="ASP.NET MVC\Samples" />
+        <Arguments>
+          <arg><![CDATA[-t"ASP.NET MVC" -f"*" -aVWDExpress.exe -ni]]></arg>
+          <arg base="MyDocuments" dir="ComponentOne Samples" type="PathCombine">ASP.NET MVC\MVC</arg>
+          <arg type="VSVersion" />
+        </Arguments>
+      </ShortCut>
+      <ShortCut LongName="ASP.NET MVC Classic Samples">
+        <Target base="ComnFls" dir="ComponentOne Shared\SampleExplorerV4">SampleExplorer.exe</Target>
+        <Location base="C1ShortCutsMenu" dir="ASP.NET MVC\Samples" />
+        <Arguments>
+          <arg><![CDATA[-t"ASP.NET MVC" -f"*" -aVWDExpress.exe -ni]]></arg>
+          <arg base="MyDocuments" dir="ComponentOne Samples" type="PathCombine">ASP.NET MVC\MVC Classic</arg>
+          <arg type="VSVersion" />
+        </Arguments>
+      </ShortCut>
+    </ShortCuts>
+    <Blurb>
+      Modern controls for today's web. A set of fast and
+      lightweight data management and visualization MVC
+      controls built on latest web standards.
+    </Blurb>
+    <ControlRegistry>
+      <Keys>
+        <Key name="DisplayName" type="string" value="ComponentOne Studio for MVC" />
+        <Key name="DisplayVersion" type="string" value="20153.1.14" />
+        <Key name="Publisher" type="string" value="GrapeCity, Inc." />
+        <Key name="URLInfoAbout" type="string" value="http://www.componentone.com" />
+        <Key name="URLUpdateInfo" type="string" value="http://www.componentone.com" />
+        <Key name="Version" type="word" value="2015202" />
+        <Key name="VersionMajor" type="word" value="20152" />
+        <Key name="VersionMinor" type="word" value="2" />
+        <Key name="WindowsInstaller" type="word" value="0" />
+      </Keys>
+    </ControlRegistry>
+  </Product>
+
+  <Product name="ASPNETWijmo" displnm="ASP.NET Web Forms" grpnm="Web" version="20153.1.13"
+           ControlPanelEntry="ComponentOne Studio for ASP.NET WebForms" pdnm="ComponentOne Studio for ASP.NET WebForms" Version="2015 v2"
+           slntdsplynm="WEB" ISMSI="false"
+           ThemeColor="#f13609" bckgrnd="http://cellar.componentone.com/ProductImages/ASPNET.png" Size="39300" ProgressPanel="wjpg">
+    <InstallCondition><![CDATA[(('ISNET35' <> '') Or ('ISNET40' <> '') Or ('ISNET45' <> '')) ]]></InstallCondition>
+    <DeletableDirs>
+      <!--old structure only to be deleted-->
+      <DeleteableDir base="MyDocuments" val="ComponentOne Samples\Studio for ASP.NET Wijmo" newval="ComponentOne Samples\{86E0C674-6AFD-4D16-839C-B4E37C2AB653}"></DeleteableDir>
+      <DeleteableDir base="PgmFls" val="ComponentOne\Studio for ASP.NET Wijmo" newval="ComponentOne\{B1883B8B-E093-4021-8302-0FB1389D867E}"></DeleteableDir>
+      <DeleteableDir base="C1ShortCutsMenu" val="Studio for ASP.NET Wijmo" newval="{00B79D06-A5D7-48D5-A9A2-A631BAE33273}"></DeleteableDir>
+      <DeleteableDir base="MyDocuments" val="ComponentOne Samples\Studio for ASP.NET WebForms" newval="ComponentOne Samples\{F5C8D245-F7BF-41E6-986B-ABF16F5EAC27}"></DeleteableDir>
+      <DeleteableDir base="PgmFls" val="ComponentOne\Studio for ASP.NET WebForms" newval="ComponentOne\{39EED1A8-6BE4-413A-83CA-C3E6ABAD6B86}"></DeleteableDir>
+      <DeleteableDir base="C1ShortCutsMenu" val="Studio for ASP.NET WebForms" newval="{4E141EAF-1875-498D-8BDA-8E1DECF7BF01}"></DeleteableDir>
+
+      <DeleteableDir base="VS2K10Extensions" val="ComponentOne\C1ASPWijmo" newval="ComponentOne\{497383EA-D11D-4D53-9041-DDF036FC85E7}"></DeleteableDir>
+      <DeleteableDir base="VS2K12Extensions" val="ComponentOne\C1ASPWijmo" newval="ComponentOne\{1564460A-652D-4518-BB5B-F6FEDDC03FD4}"></DeleteableDir>
+      <DeleteableDir base="VS2K13Extensions" val="ComponentOne\C1ASPWijmo" newval="ComponentOne\{38D9E5AA-1782-4637-B71A-BC298474EDCF}"></DeleteableDir>
+
+      <!--New structure-->
+
+      <DeleteableDir base="MyDocuments" val="ComponentOne Samples\ASP.NET Web Forms" newval="ComponentOne Samples\{DB683D46-2292-46CD-BA4C-6DE56F4BE2CB}"></DeleteableDir>
+      <DeleteableDir base="PgmFls" val="ComponentOne\ASP.NET Web Forms Edition" newval="ComponentOne\{04A25F41-24D5-41A3-8C92-FC3E7CE4FB97}"></DeleteableDir>
+      <DeleteableDir base="C1ShortCutsMenu" val="ASP.NET Web Forms" newval="{41500A91-DB35-4CC6-A3B8-32C29388952F}"></DeleteableDir>
+
+    </DeletableDirs>
+    <Dirs>
+      <Dir base="PgmFls" val="ComponentOne\ASP.NET Web Forms Edition">
+        <Dir name="bin">
+          <Dir name="v2" nosubdirs="true">
+            <extract value="http://cellar.componentone.com/staging/studio/Product/ASPNETWijmo/BinDir/v2.7z" xval="wijmov2.7z"></extract>
+          </Dir>
+          <Dir name="v3" nosubdirs="true">
+            <extract value="http://cellar.componentone.com/staging/studio/Product/ASPNETWijmo/BinDir/v3.7z" xval="wijmov3.7z"></extract>
+          </Dir>
+          <Dir name="v4" nosubdirs="true">
+            <extract value="http://cellar.componentone.com/staging/studio/Product/ASPNETWijmo/BinDir/v4.7z" xval="wijmov4.7z"></extract>
+          </Dir>
+        </Dir>
+        <Dir name="" nosubdirs="true">
+          <extract value="http://cellar.componentone.com/staging/studio/Product/ASPNETWijmo/RtDir.7z" xval="wijmort.7z"></extract>
+        </Dir>
+      </Dir>
+      <Dir base="MyDocuments" val="ComponentOne Samples\ASP.NET Web Forms">
+
+        <Dir name="" nosubdirs="true">
+          <extract value="http://cellar.componentone.com/staging/studio/Product/ASPNETWijmo/Samples/WebForms.7z" xval="wijmosamples.7z"></extract>
+
+        </Dir>
+      </Dir>
+      <Dir base="C1ShortCutsMenu" val="ASP.NET Web Forms">
+        <Dir name="Readmes" nosubdirs="true">
+          <extract></extract>
+        </Dir>
+        <Dir name="Samples" nosubdirs="true">
+          <extract></extract>
+        </Dir>
+      </Dir>
+
+    </Dirs>
+    <ShortCuts>
+      <ShortCut LongName="C1Reports Designer">
+        <Target base="PgmFls" dir="ComponentOne\Apps\v4.0">C1ReportDesigner.exe</Target>
+        <Location base="C1ShortCutsMenu" dir="Apps" />
+      </ShortCut>
+      <ShortCut LongName="C1Reports Scheduler">
+        <Target base="PgmFls" dir="ComponentOne\Apps\v4.0">C1ReportsScheduler.exe</Target>
+        <Location base="C1ShortCutsMenu" dir="Apps" />
+      </ShortCut>
+      <ShortCut LongName="C1Reports Viewer">
+        <Target base="PgmFls" dir="ComponentOne\Apps\v4.0">C1dView32.exe</Target>
+        <Location base="C1ShortCutsMenu" dir="Apps" />
+      </ShortCut>
+      <ShortCut LongName="ASP.NET WebForms">
+        <Target base="PgmFls" dir="ComponentOne\ASP.NET Web Forms Edition">readme.txt</Target>
+        <Location base="C1ShortCutsMenu" dir="ASP.NET Web Forms\Readmes" />
+      </ShortCut>
+      <ShortCut LongName="Online Help">
+        <Target base="PgmFls" dir="ComponentOne\ASP.NET Web Forms Edition\OnlineHelp">C1StudioAspWijmoHelp.url</Target>
+        <Location base="C1ShortCutsMenu" dir="ASP.NET Web Forms" />
+        <icon>C1NetHelp.ico</icon>
+      </ShortCut>
+      <ShortCut LongName="C1Excel Samples">
+        <Target base="ComnFls" dir="ComponentOne Shared\SampleExplorerV4">SampleExplorer.exe</Target>
+        <Location base="C1ShortCutsMenu" dir="ASP.NET Web Forms\Samples" />
+        <Arguments>
+          <arg><![CDATA[-t"C1Excel" -f"*" -aWDExpress.exe,VCSExpress.exe,VBExpress.exe -ni]]></arg>
+          <arg base="MyDocuments" dir="ComponentOne Samples" type="PathCombine">ASP.NET Web Forms\C1Excel</arg>
+          <arg type="VSVersion" />
+        </Arguments>
+      </ShortCut>
+      <ShortCut LongName="C1Pdf Samples">
+        <Target base="ComnFls" dir="ComponentOne Shared\SampleExplorerV4">SampleExplorer.exe</Target>
+        <Location base="C1ShortCutsMenu" dir="ASP.NET Web Forms\Samples" />
+        <Arguments>
+          <arg><![CDATA[-t"C1Pdf" -f"*" -aWDExpress.exe,VCSExpress.exe,VBExpress.exe -ni]]></arg>
+          <arg base="MyDocuments" dir="ComponentOne Samples" type="PathCombine">ASP.NET Web Forms\C1Pdf</arg>
+          <arg type="VSVersion" />
+        </Arguments>
+      </ShortCut>
+      <ShortCut LongName="ASP.NET WebForms Samples">
+        <Target base="ComnFls" dir="ComponentOne Shared\SampleExplorerV4">SampleExplorer.exe</Target>
+        <Location base="C1ShortCutsMenu" dir="ASP.NET Web Forms\Samples" />
+        <Arguments>
+          <arg><![CDATA[-t"ASP.NET WebForms" -f"*" -aVWDExpress.exe -ni]]></arg>
+          <arg base="MyDocuments" dir="ComponentOne Samples" type="PathCombine">ASP.NET Web Forms\WebForms</arg>
+          <arg type="VSVersion" />
+        </Arguments>
+      </ShortCut>
+      <ShortCut LongName="C1Zip Samples">
+        <Target base="ComnFls" dir="ComponentOne Shared\SampleExplorerV4">SampleExplorer.exe</Target>
+        <Location base="C1ShortCutsMenu" dir="ASP.NET Web Forms\Samples" />
+        <Arguments>
+          <arg><![CDATA[-t"C1Zip" -f"*" -aWDExpress.exe,VCSExpress.exe,VBExpress.exe -ni]]></arg>
+          <arg base="MyDocuments" dir="ComponentOne Samples" type="PathCombine">ASP.NET Web Forms\C1Zip</arg>
+          <arg type="VSVersion" />
+        </Arguments>
+      </ShortCut>
+    </ShortCuts>
+    <Templates></Templates>
+    <GacDlls>
+      <GacDll nm="C1.C1Report.2" pth="ComponentOne\ASP.NET Web Forms Edition\bin\v3" base="PgmFls" />
+      <GacDll nm="C1.Web.Wijmo.Controls.Design.3" pth="ComponentOne\ASP.NET Web Forms Edition\bin\v3\Designer" base="PgmFls" />
+      <GacDll nm="C1.C1Report.4" pth="ComponentOne\ASP.NET Web Forms Edition\bin\v4" base="PgmFls" />
+      <GacDll nm="C1.Web.Wijmo.Controls.Design.4" pth="ComponentOne\ASP.NET Web Forms Edition\bin\v4\Designer" base="PgmFls" />
+    </GacDlls>
+    <RegistryKeys>
+      <RegistryKey base="HKLM" bsvalue="SOFTWARE\Microsoft\.NETFramework\AssemblyFolders" name="C1StudioASPWijmo">
+        <ChildKeys>
+          <ChildKey name="V4">
+            <str name="" value="ComponentOne\ASP.NET Web Forms Edition\bin\v4" rtdir="pgmfls"></str>
+          </ChildKey>
+        </ChildKeys>
+      </RegistryKey>
+      <RegistryKey base="HKLM" bsvalue="SOFTWARE\Microsoft\.NETFramework\v4.0.30319\AssemblyFoldersEx" name="C1StudioASPWijmo\V4">
+        <Default value="ComponentOne\ASP.NET Web Forms Edition\bin\v4" rtdir="pgmfls"></Default>
+        <ChildKeys>
+          <ChildKey name="ToolBox">
+            <str name="TabName" value="C1 ASP.Net Wijmo 4.0"></str>
+            <str name="Update" value="dttm"></str>
+          </ChildKey>
+        </ChildKeys>
+      </RegistryKey>
+      <RegistryKey base="HKLM" bsvalue="SOFTWARE\Microsoft\.NETFramework\v4.0.30319\AssemblyFoldersEx" name="C1StudioASPWijmo\DesignerV4">
+        <Default value="ComponentOne\ASP.NET Web Forms Edition\bin\v4\Designer" rtdir="pgmfls"></Default>
+      </RegistryKey>
+      <RegistryKey base="HKLM" bsvalue="SOFTWARE\Microsoft\.NETFramework\v4.0.30319\AssemblyFoldersEx" name="C1StudioASPWijmo\ExtenderV4">
+        <Default value="ComponentOne\ASP.NET Web Forms Edition\bin\v4\Extenders" rtdir="pgmfls"></Default>
+      </RegistryKey>
+      <RegistryKey base="HKLM" bsvalue="SOFTWARE\Microsoft\.NETFramework\v4.0.30319\AssemblyFoldersEx" name="C1StudioASPWijmo\ExtenderV4">
+        <Default value="ComponentOne\ASP.NET Web Forms Edition\bin\v4\Extenders" rtdir="pgmfls"></Default>
+      </RegistryKey>
+      <RegistryKey base="HKLM" bsvalue="SOFTWARE\Microsoft\.NETFramework\AssemblyFolders" name="C1StudioASPWijmo">
+        <ChildKeys>
+          <ChildKey name="V3">
+            <str name="" value="ComponentOne\ASP.NET Web Forms Edition\bin\v3" rtdir="pgmfls"></str>
+          </ChildKey>
+        </ChildKeys>
+      </RegistryKey>
+      <RegistryKey base="HKLM" bsvalue="SOFTWARE\Microsoft\.NETFramework\v3.0\AssemblyFoldersEx" name="C1StudioASPWijmo\V3">
+        <Default value="ComponentOne\ASP.NET Web Forms Edition\bin\v3" rtdir="pgmfls"></Default>
+        <ChildKeys>
+          <ChildKey name="ToolBox">
+            <str name="TabName" value="C1 ASP.Net Wijmo 3.5"></str>
+            <str name="Update" value="dttm"></str>
+          </ChildKey>
+        </ChildKeys>
+      </RegistryKey>
+      <RegistryKey base="HKLM" bsvalue="SOFTWARE\Microsoft\.NETFramework\v3.0\AssemblyFoldersEx" name="C1StudioASPWijmo\DesignerV3">
+        <Default value="ComponentOne\ASP.NET Web Forms Edition\bin\v3\Designer" rtdir="pgmfls"></Default>
+      </RegistryKey>
+      <RegistryKey base="HKLM" bsvalue="SOFTWARE\Microsoft\.NETFramework\v3.0\AssemblyFoldersEx" name="C1StudioASPWijmo\ExtenderV3">
+        <Default value="ComponentOne\ASP.NET Web Forms Edition\bin\v3\Extenders" rtdir="pgmfls"></Default>
+      </RegistryKey>
+      <RegistryKey base="HKLM" bsvalue="SOFTWARE\Microsoft\.NETFramework\v3.5\AssemblyFoldersEx" name="C1StudioASPWijmo\V3">
+        <Default value="ComponentOne\ASP.NET Web Forms Edition\bin\v3" rtdir="pgmfls"></Default>
+        <ChildKeys>
+          <ChildKey name="ToolBox">
+            <str name="TabName" value="C1 ASP.Net Wijmo 3.5"></str>
+            <str name="Update" value="dttm"></str>
+          </ChildKey>
+        </ChildKeys>
+      </RegistryKey>
+      <RegistryKey base="HKLM" bsvalue="SOFTWARE\Microsoft\.NETFramework\v3.5\AssemblyFoldersEx" name="C1StudioASPWijmo\DesignerV3">
+        <Default value="ComponentOne\ASP.NET Web Forms Edition\bin\v3\Designer" rtdir="pgmfls"></Default>
+      </RegistryKey>
+      <RegistryKey base="HKLM" bsvalue="SOFTWARE\Microsoft\.NETFramework\v3.5\AssemblyFoldersEx" name="C1StudioASPWijmo\ExtenderV3">
+        <Default value="ComponentOne\ASP.NET Web Forms Edition\bin\v3\Extenders" rtdir="pgmfls"></Default>
+      </RegistryKey>
+      <RegistryKey base="HKLM" bsvalue="SOFTWARE\Microsoft\.NETFramework\v2.0.50727\AssemblyFoldersEx" name="C1StudioASPWijmo">
+        <Default value="ComponentOne\ASP.NET Web Forms Edition\bin\v2" rtdir="pgmfls"></Default>
+      </RegistryKey>
+    </RegistryKeys>
+    <ToolBoxControlsInstallers>
+      <ToolBoxControlsInstaller type="VS2010">
+        <Control name="C1.Web.Wijmo.Extenders.4, Version=4.0.20152.218, Culture=neutral, PublicKeyToken=9b75583953471eea" default="C1 Wijmo Extenders 4.0" dll="ComponentOne\ASP.NET Web Forms Edition\bin\v4\Extenders\C1.Web.Wijmo.Extenders.4.dll" base="PgmFls" />
+        <Control name="C1.Web.Wijmo.Extenders.3, Version=3.5.20152.218, Culture=neutral, PublicKeyToken=9b75583953471eea" default="C1 Wijmo Extenders 3.5" dll="ComponentOne\ASP.NET Web Forms Edition\bin\v3\Extenders\C1.Web.Wijmo.Extenders.3.dll" base="PgmFls" />
+      </ToolBoxControlsInstaller>
+      <ToolBoxControlsInstaller type="VS2012">
+        <Control name="C1.Web.Wijmo.Extenders.4, Version=4.0.20152.218, Culture=neutral, PublicKeyToken=9b75583953471eea" default="C1 Wijmo Extenders 4.0" dll="ComponentOne\ASP.NET Web Forms Edition\bin\v4\Extenders\C1.Web.Wijmo.Extenders.4.dll" base="PgmFls" />
+        <Control name="C1.Web.Wijmo.Extenders.3, Version=3.5.20152.218, Culture=neutral, PublicKeyToken=9b75583953471eea" default="C1 Wijmo Extenders 3.5" dll="ComponentOne\ASP.NET Web Forms Edition\bin\v3\Extenders\C1.Web.Wijmo.Extenders.3.dll" base="PgmFls" />
+      </ToolBoxControlsInstaller>
+      <ToolBoxControlsInstaller type="VS2013">
+        <Control name="C1.Web.Wijmo.Extenders.4, Version=4.0.20152.218, Culture=neutral, PublicKeyToken=9b75583953471eea" default="C1 Wijmo Extenders 4.0" dll="ComponentOne\ASP.NET Web Forms Edition\bin\v4\Extenders\C1.Web.Wijmo.Extenders.4.dll" base="PgmFls" />
+        <Control name="C1.Web.Wijmo.Extenders.3, Version=3.5.20152.218, Culture=neutral, PublicKeyToken=9b75583953471eea" default="C1 Wijmo Extenders 3.5" dll="ComponentOne\ASP.NET Web Forms Edition\bin\v3\Extenders\C1.Web.Wijmo.Extenders.3.dll" base="PgmFls" />
+      </ToolBoxControlsInstaller>
+      <ToolBoxControlsInstaller type="VS2015">
+        <Control name="C1.Web.Wijmo.Extenders.4, Version=4.0.20152.218, Culture=neutral, PublicKeyToken=9b75583953471eea" default="C1 Wijmo Extenders 4.0" dll="ComponentOne\ASP.NET Web Forms Edition\bin\v4\Extenders\C1.Web.Wijmo.Extenders.4.dll" base="PgmFls" />
+        <Control name="C1.Web.Wijmo.Extenders.3, Version=3.5.20152.218, Culture=neutral, PublicKeyToken=9b75583953471eea" default="C1 Wijmo Extenders 3.5" dll="ComponentOne\ASP.NET Web Forms Edition\bin\v3\Extenders\C1.Web.Wijmo.Extenders.3.dll" base="PgmFls" />
+      </ToolBoxControlsInstaller>
+    </ToolBoxControlsInstallers>
+    <Blurb>
+      40+ ASP.NET controls built on Web standards (AJAX,
+      CSS, HTML5, and jQuery). Also available as Extenders
+      and MVC tools. Supports .NET 3.5 and higher.
+    </Blurb>
+    <ControlRegistry>
+      <Keys>
+        <Key name="DisplayName" type="string" value="ComponentOne Studio for ASP.NET WebForms" />
+        <Key name="DisplayVersion" type="string" value="20153.1.13" />
+        <Key name="Publisher" type="string" value="GrapeCity, Inc." />
+        <Key name="URLInfoAbout" type="string" value="http://www.componentone.com" />
+        <Key name="URLUpdateInfo" type="string" value="http://www.componentone.com" />
+        <Key name="Version" type="word" value="2015202" />
+        <Key name="VersionMajor" type="word" value="20152" />
+        <Key name="VersionMinor" type="word" value="2" />
+        <Key name="WindowsInstaller" type="word" value="0" />
+      </Keys>
+    </ControlRegistry>
+  </Product>
+
+
+  <Product name="WPF" displnm="WPF" grpnm="Desktop" version="20153.2.2" ThemeColor="#3ab990"
+              slntdsplynm="WPF" ISMSI="false"
+              ControlPanelEntry="ComponentOne Studio for WPF" Version="2015 v3" bckgrnd="http://cellar.componentone.com/ProductImages/WPF.png"
+           Size="11600" ProgressPanel="wppg">
+    <DeletableDirs>
+      <!--old directories-->
+      <DeleteableDir base="MyDocuments" val="ComponentOne Samples\Studio for WPF" newval="ComponentOne Samples\{D270725D-79FF-4BAA-B480-C860D0572C52}"></DeleteableDir>
+      <DeleteableDir base="PgmFls" val="ComponentOne\Studio for WPF" newval="ComponentOne\{B06F04B9-35A5-4DA9-B9FC-9B14080DE23A}"></DeleteableDir>
+      <DeleteableDir base="C1ShortCutsMenu" val="Studio for WPF" newval="{3A7FFE1A-6A67-42FE-9904-F4F83410721C}"></DeleteableDir>
+      <!--new directories-->
+      <DeleteableDir base="MyDocuments" val="ComponentOne Samples\WPF" newval="ComponentOne Samples\{A3235D6E-7428-407D-97C8-E52296B2D65E}"></DeleteableDir>
+      <DeleteableDir base="PgmFls" val="ComponentOne\WPF Edition" newval="ComponentOne\{891CAA83-3D91-4E5C-AEC4-79DE7CCF9BFD}"></DeleteableDir>
+      <DeleteableDir base="C1ShortCutsMenu" val="WPF" newval="{12879FBD-09F1-47D8-B281-135E91931D9F}"></DeleteableDir>
+      <DeleteableDir base="VS2K12Extensions" val="ComponentOne\C1WPF" newval="ComponentOne\{69328d3a-f7cd-4c1b-82f3-c8ceff4e8d1b}" />
+      <DeleteableDir base="VS2K13Extensions" val="ComponentOne\C1WPF" newval="ComponentOne\{8eed3140-f316-4586-880c-67856ff8661a}" />
+      <DeleteableDir base="VS2K15Extensions" val="ComponentOne\C1WPF" newval="ComponentOne\{D0867E68-0C4D-4FEA-BCD1-E59EFFF728D5}"></DeleteableDir>
+    </DeletableDirs>
+    <Dirs>
+      <Dir base="PgmFls" val="ComponentOne\WPF Edition">
+        <Dir name="" nosubdirs="true">
+          <extract value="http://cellar.componentone.com/staging/studio/Product/WPF/BinDir/Controls.7z" xval="WPFControls.7z"></extract>
+        </Dir>
+      </Dir>
+      <Dir base="MyDocuments" val="ComponentOne Samples\WPF">
+        <Dir name="" nosubdirs="true">
+          <extract value="http://cellar.componentone.com/staging/studio/Product/WPF/Samples/Samples.7z" xval="WPFSamples.7z"></extract>
+        </Dir>
+      </Dir>
+      <Dir base="C1ShortCutsMenu" val="WPF">
+        <Dir name="Online Help" nosubdirs="true">
+          <extract></extract>
+        </Dir>
+        <Dir name="Samples" nosubdirs="true">
+          <extract></extract>
+        </Dir>
+        <Dir name="DictionaryEditor" nosubdirs="true">
+          <extract></extract>
+        </Dir>
+      </Dir>
+      <Dir base="VS2K12IDE" val="Extensions\ComponentOne">
+        <Dir name="" nosubdirs="true">
+          <extract value="http://cellar.componentone.com/staging/studio/Product/WPF/Templates/C1WPF2012.7z" xval="WPFTemplates12.7z"></extract>
+        </Dir>
+      </Dir>
+      <Dir base="VS2K13IDE" val="Extensions\ComponentOne">
+        <Dir name="" nosubdirs="true">
+          <extract value="http://cellar.componentone.com/staging/studio/Product/WPF/Templates/C1WPF2013.7z" xval="WPFTemplates13.7z"></extract>
+        </Dir>
+      </Dir>
+      <Dir base="VS2K15IDE" val="Extensions\ComponentOne">
+        <Dir name="" nosubdirs="true">
+          <extract value="http://cellar.componentone.com/staging/studio/Product/WPF/Templates/C1WPF2015.7z" xval="WPFTemplates15.7z"></extract>
+        </Dir>
+      </Dir>
+    </Dirs>
+    <Templates></Templates>
+    <RegistryKeys>
+      <RegistryKey base="HKLM" bsvalue="SOFTWARE\Microsoft\.NETFramework\v4.0.30319\AssemblyFoldersEx" name="C1StudioWPF">
+        <Default value="ComponentOne\WPF Edition\bin\v4" rtdir="pgmfls"></Default>
+        <ChildKeys>
+          <ChildKey name="ToolBox">
+            <str name="TabName" value="C1 WPF 4.0"></str>
+            <str name="Update" value="dttm"></str>
+          </ChildKey>
+        </ChildKeys>
+      </RegistryKey>
+      <RegistryKey base="HKLM" bsvalue="SOFTWARE\Microsoft\Expression\Blend\12.0\Toolbox" name="WPF\v4.0\C1">
+        <Default value="ComponentOne\WPF Edition\bin\v4" rtdir="pgmfls"></Default>
+      </RegistryKey>
+      <RegistryKey base="HKLM" bsvalue="SOFTWARE\Microsoft\Expression\Blend\12.0\Toolbox" name="WPF\v4.5\C1">
+        <Default value="ComponentOne\WPF Edition\bin\v4" rtdir="pgmfls"></Default>
+      </RegistryKey>
+      <RegistryKey base="HKLM" bsvalue="SOFTWARE\Microsoft\Expression\Blend\5.0\Toolbox" name="WPF\v4.0\C1">
+        <Default value="ComponentOne\WPF Edition\bin\v4" rtdir="pgmfls"></Default>
+      </RegistryKey>
+      <RegistryKey base="HKLM" bsvalue="SOFTWARE\Microsoft\Expression\Blend\5.0\Toolbox" name="WPF\v4.5\C1">
+        <Default value="ComponentOne\WPF Edition\bin\v4" rtdir="pgmfls"></Default>
+      </RegistryKey>
+    </RegistryKeys>
+    <ShortCuts>
+      <ShortCut LongName="C1Reports Designer">
+        <Target base="PgmFls" dir="ComponentOne\Apps\v4.0">C1ReportDesigner.exe</Target>
+        <Location base="C1ShortCutsMenu" dir="Apps" />
+      </ShortCut>
+      <ShortCut LongName="C1Reports Scheduler">
+        <Target base="PgmFls" dir="ComponentOne\Apps\v4.0">C1ReportsScheduler.exe</Target>
+        <Location base="C1ShortCutsMenu" dir="Apps" />
+      </ShortCut>
+      <ShortCut LongName="C1Reports Viewer">
+        <Target base="PgmFls" dir="ComponentOne\Apps\v4.0">C1dView32.exe</Target>
+        <Location base="C1ShortCutsMenu" dir="Apps" />
+      </ShortCut>
+      <ShortCut LongName="Online Help">
+        <Target base="PgmFls" dir="ComponentOne\WPF Edition\OnlineHelp">C1StudioWpfHelp.url</Target>
+        <Location base="C1ShortCutsMenu" dir="WPF" />
+        <icon>C1NetHelp.ico</icon>
+      </ShortCut>
+      <ShortCut LongName="Dictionary Editor">
+        <Target base="PgmFls" dir="ComponentOne\WPF Edition\DictionaryEditor">C1DictionaryEditor.exe</Target>
+        <Location base="C1ShortCutsMenu" dir="WPF\DictionaryEditor" />
+      </ShortCut>
+      <ShortCut LongName="Dictionary Editor 4.0">
+        <Target base="PgmFls" dir="ComponentOne\WPF Edition\DictionaryEditor">C1DictionaryEditor.4.exe</Target>
+        <Location base="C1ShortCutsMenu" dir="WPF\DictionaryEditor" />
+      </ShortCut>
+      <ShortCut LongName="Automation Samples">
+        <Target base="ComnFls" dir="ComponentOne Shared\SampleExplorerV4">SampleExplorer.exe</Target>
+        <WorkingDirectory base="MyDocuments" dir="ComponentOne Samples\WPF" />
+        <Location base="C1ShortCutsMenu" dir="WPF\Samples" />
+        <Arguments>
+          <arg><![CDATA[-t"Automation for WPF" -f"*.sln;*.*proj" -aWDExpress.exe,VCSExpress.exe,VBExpress.exe -ni]]></arg>
+          <arg base="MyDocuments" dir="ComponentOne Samples" type="PathCombine">WPF\C1.WPF.Automation</arg>
+          <arg type="VSVersion" />
+        </Arguments>
+      </ShortCut>
+      <ShortCut LongName="Basic Controls Samples">
+        <WorkingDirectory base="MyDocuments" dir="ComponentOne Samples\WPF"></WorkingDirectory>
+        <Target base="ComnFls" dir="ComponentOne Shared\SampleExplorerV4">SampleExplorer.exe</Target>
+        <Location base="C1ShortCutsMenu" dir="WPF\Samples"></Location>
+        <Arguments>
+          <arg><![CDATA[-t"Basic Controls for WPF" -f"*.sln;*.*proj" -aWDExpress.exe,VCSExpress.exe,VBExpress.exe -ni]]></arg>
+          <arg base="MyDocuments" dir="ComponentOne Samples" type="PathCombine">WPF\C1.WPF</arg>
+          <arg type="VSVersion" />
+        </Arguments>
+      </ShortCut>
+      <ShortCut LongName="Binding Samples">
+        <Target base="ComnFls" dir="ComponentOne Shared\SampleExplorerV4">SampleExplorer.exe</Target>
+        <WorkingDirectory base="MyDocuments" dir="ComponentOne Samples\WPF" />
+        <Location base="C1ShortCutsMenu" dir="WPF\Samples" />
+        <Arguments>
+          <arg><![CDATA[-t"Binding for WPF" -f"*.sln;*.*proj" -aWDExpress.exe,VCSExpress.exe,VBExpress.exe -ni]]></arg>
+          <arg base="MyDocuments" dir="ComponentOne Samples" type="PathCombine">WPF\C1.WPF.Binding</arg>
+          <arg type="VSVersion" />
+        </Arguments>
+      </ShortCut>
+      <ShortCut LongName="Report Samples">
+        <Target base="ComnFls" dir="ComponentOne Shared\SampleExplorerV4">SampleExplorer.exe</Target>
+        <WorkingDirectory base="MyDocuments" dir="ComponentOne Samples\WPF" />
+        <Location base="C1ShortCutsMenu" dir="WPF\Samples" />
+        <Arguments>
+          <arg><![CDATA[-t"Report for WPF" -f"*.sln;*.*proj" -aWDExpress.exe,VCSExpress.exe,VBExpress.exe -ni]]></arg>
+          <arg base="MyDocuments" dir="ComponentOne Samples" type="PathCombine">WPF\C1.WPF.C1Report</arg>
+          <arg type="VSVersion" />
+        </Arguments>
+      </ShortCut>
+      <ShortCut LongName="Chart Samples">
+        <Target base="ComnFls" dir="ComponentOne Shared\SampleExplorerV4">SampleExplorer.exe</Target>
+        <WorkingDirectory base="MyDocuments" dir="ComponentOne Samples\WPF" />
+        <Location base="C1ShortCutsMenu" dir="WPF\Samples" />
+        <Arguments>
+          <arg><![CDATA[-t"Chart for WPF" -f"*.sln;*.*proj" -aWDExpress.exe,VCSExpress.exe,VBExpress.exe -ni]]></arg>
+          <arg base="MyDocuments" dir="ComponentOne Samples" type="PathCombine">WPF\C1.WPF.Chart</arg>
+          <arg type="VSVersion" />
+        </Arguments>
+      </ShortCut>
+      <ShortCut LongName="DataGrid Samples">
+        <Target base="ComnFls" dir="ComponentOne Shared\SampleExplorerV4">SampleExplorer.exe</Target>
+        <WorkingDirectory base="MyDocuments" dir="ComponentOne Samples\WPF" />
+        <Location base="C1ShortCutsMenu" dir="WPF\Samples" />
+        <Arguments>
+          <arg><![CDATA[-t"DataGrid for WPF" -f"*.sln;*.*proj" -aWDExpress.exe,VCSExpress.exe,VBExpress.exe -ni]]></arg>
+          <arg base="MyDocuments" dir="ComponentOne Samples" type="PathCombine">WPF\C1.WPF.DataGrid</arg>
+          <arg type="VSVersion" />
+        </Arguments>
+      </ShortCut>
+      <ShortCut LongName="DataSource Samples">
+        <Target base="ComnFls" dir="ComponentOne Shared\SampleExplorerV4">SampleExplorer.exe</Target>
+        <WorkingDirectory base="MyDocuments" dir="ComponentOne Samples\WPF" />
+        <Location base="C1ShortCutsMenu" dir="WPF\Samples" />
+        <Arguments>
+          <arg><![CDATA[-t"DataSource for WPF" -f"*.sln;*.*proj" -aWDExpress.exe,VCSExpress.exe,VBExpress.exe -ni]]></arg>
+          <arg base="MyDocuments" dir="ComponentOne Samples" type="PathCombine">WPF\C1.WPF.DataSource</arg>
+          <arg type="VSVersion" />
+        </Arguments>
+      </ShortCut>
+      <ShortCut LongName="Docking Samples">
+        <Target base="ComnFls" dir="ComponentOne Shared\SampleExplorerV4">SampleExplorer.exe</Target>
+        <WorkingDirectory base="MyDocuments" dir="ComponentOne Samples\WPF" />
+        <Location base="C1ShortCutsMenu" dir="WPF\Samples" />
+        <Arguments>
+          <arg><![CDATA[-t"Docking for WPF" -f"*.sln;*.*proj" -aWDExpress.exe,VCSExpress.exe,VBExpress.exe -ni]]></arg>
+          <arg base="MyDocuments" dir="ComponentOne Samples" type="PathCombine">WPF\C1.WPF.Docking</arg>
+          <arg type="VSVersion" />
+        </Arguments>
+      </ShortCut>
+      <ShortCut LongName="Extended Samples">
+        <Target base="ComnFls" dir="ComponentOne Shared\SampleExplorerV4">SampleExplorer.exe</Target>
+        <WorkingDirectory base="MyDocuments" dir="ComponentOne Samples\WPF" />
+        <Location base="C1ShortCutsMenu" dir="WPF\Samples" />
+        <Arguments>
+          <arg><![CDATA[-t"Extended for WPF" -f"*.sln;*.*proj" -aWDExpress.exe,VCSExpress.exe,VBExpress.exe -ni]]></arg>
+          <arg base="MyDocuments" dir="ComponentOne Samples" type="PathCombine">WPF\C1.WPF.Extended</arg>
+          <arg type="VSVersion" />
+        </Arguments>
+      </ShortCut>
+      <ShortCut LongName="FlexGrid Samples">
+        <Target base="ComnFls" dir="ComponentOne Shared\SampleExplorerV4">SampleExplorer.exe</Target>
+        <WorkingDirectory base="MyDocuments" dir="ComponentOne Samples\WPF" />
+        <Location base="C1ShortCutsMenu" dir="WPF\Samples" />
+        <Arguments>
+          <arg><![CDATA[-t"FlexGrid for WPF" -f"*.sln;*.*proj" -aWDExpress.exe,VCSExpress.exe,VBExpress.exe -ni]]></arg>
+          <arg base="MyDocuments" dir="ComponentOne Samples" type="PathCombine">WPF\C1.WPF.FlexGrid</arg>
+          <arg type="VSVersion" />
+        </Arguments>
+      </ShortCut>
+      <ShortCut LongName="Olap Samples">
+        <Target base="ComnFls" dir="ComponentOne Shared\SampleExplorerV4">SampleExplorer.exe</Target>
+        <WorkingDirectory base="MyDocuments" dir="ComponentOne Samples\WPF" />
+        <Location base="C1ShortCutsMenu" dir="WPF\Samples" />
+        <Arguments>
+          <arg><![CDATA[-t"Olap for WPF" -f"*.sln;*.*proj" -aWDExpress.exe,VCSExpress.exe,VBExpress.exe -ni]]></arg>
+          <arg base="MyDocuments" dir="ComponentOne Samples" type="PathCombine">WPF\C1.WPF.Olap</arg>
+          <arg type="VSVersion" />
+        </Arguments>
+      </ShortCut>
+      <ShortCut LongName="OrgChart Samples">
+        <Target base="ComnFls" dir="ComponentOne Shared\SampleExplorerV4">SampleExplorer.exe</Target>
+        <WorkingDirectory base="MyDocuments" dir="ComponentOne Samples\WPF" />
+        <Location base="C1ShortCutsMenu" dir="WPF\Samples" />
+        <Arguments>
+          <arg><![CDATA[-t"OrgChart for WPF" -f"*.sln;*.*proj" -aWDExpress.exe,VCSExpress.exe,VBExpress.exe -ni]]></arg>
+          <arg base="MyDocuments" dir="ComponentOne Samples" type="PathCombine">WPF\C1.WPF.OrgChart</arg>
+          <arg type="VSVersion" />
+        </Arguments>
+      </ShortCut>
+      <ShortCut LongName="OutlookBar Samples">
+        <Target base="ComnFls" dir="ComponentOne Shared\SampleExplorerV4">SampleExplorer.exe</Target>
+        <WorkingDirectory base="MyDocuments" dir="ComponentOne Samples\WPF" />
+        <Location base="C1ShortCutsMenu" dir="WPF\Samples" />
+        <Arguments>
+          <arg><![CDATA[-t"OutlookBar for WPF" -f"*.sln;*.*proj" -aWDExpress.exe,VCSExpress.exe,VBExpress.exe -ni]]></arg>
+          <arg base="MyDocuments" dir="ComponentOne Samples" type="PathCombine">WPF\C1.WPF.OutlookBar</arg>
+          <arg type="VSVersion" />
+        </Arguments>
+      </ShortCut>
+      <ShortCut LongName="PdfViewer Samples">
+        <Target base="ComnFls" dir="ComponentOne Shared\SampleExplorerV4">SampleExplorer.exe</Target>
+        <WorkingDirectory base="MyDocuments" dir="ComponentOne Samples\WPF" />
+        <Location base="C1ShortCutsMenu" dir="WPF\Samples" />
+        <Arguments>
+          <arg><![CDATA[-t"PdfViewer for WPF" -f"*.sln;*.*proj" -aWDExpress.exe,VCSExpress.exe,VBExpress.exe -ni]]></arg>
+          <arg base="MyDocuments" dir="ComponentOne Samples" type="PathCombine">WPF\C1.WPF.PdfViewer</arg>
+          <arg type="VSVersion" />
+        </Arguments>
+      </ShortCut>
+      <ShortCut LongName="RichTextBox Samples">
+        <Target base="ComnFls" dir="ComponentOne Shared\SampleExplorerV4">SampleExplorer.exe</Target>
+        <WorkingDirectory base="MyDocuments" dir="ComponentOne Samples\WPF" />
+        <Location base="C1ShortCutsMenu" dir="WPF\Samples" />
+        <Arguments>
+          <arg><![CDATA[-t"RichTextBox for WPF" -f"*.sln;*.*proj" -aWDExpress.exe,VCSExpress.exe,VBExpress.exe -ni]]></arg>
+          <arg base="MyDocuments" dir="ComponentOne Samples" type="PathCombine">WPF\C1.WPF.RichTextBox</arg>
+          <arg type="VSVersion" />
+        </Arguments>
+      </ShortCut>
+      <ShortCut LongName="Schedule Samples">
+        <Target base="ComnFls" dir="ComponentOne Shared\SampleExplorerV4">SampleExplorer.exe</Target>
+        <WorkingDirectory base="MyDocuments" dir="ComponentOne Samples\WPF" />
+        <Location base="C1ShortCutsMenu" dir="WPF\Samples" />
+        <Arguments>
+          <arg><![CDATA[-t"Schedule for WPF" -f"*.sln;*.*proj" -aWDExpress.exe,VCSExpress.exe,VBExpress.exe -ni]]></arg>
+          <arg base="MyDocuments" dir="ComponentOne Samples" type="PathCombine">WPF\C1.WPF.Schedule</arg>
+          <arg type="VSVersion" />
+        </Arguments>
+      </ShortCut>
+      <ShortCut LongName="SpellChecker Samples">
+        <Target base="ComnFls" dir="ComponentOne Shared\SampleExplorerV4">SampleExplorer.exe</Target>
+        <WorkingDirectory base="MyDocuments" dir="ComponentOne Samples\WPF" />
+        <Location base="C1ShortCutsMenu" dir="WPF\Samples" />
+        <Arguments>
+          <arg><![CDATA[-t"SpellChecker for WPF" -f"*.sln;*.*proj" -aWDExpress.exe,VCSExpress.exe,VBExpress.exe -ni]]></arg>
+          <arg base="MyDocuments" dir="ComponentOne Samples" type="PathCombine">WPF\C1.WPF.SpellChecker</arg>
+          <arg type="VSVersion" />
+        </Arguments>
+      </ShortCut>
+      <ShortCut LongName="Tile Samples">
+        <Target base="ComnFls" dir="ComponentOne Shared\SampleExplorerV4">SampleExplorer.exe</Target>
+        <WorkingDirectory base="MyDocuments" dir="ComponentOne Samples\WPF" />
+        <Location base="C1ShortCutsMenu" dir="WPF\Samples" />
+        <Arguments>
+          <arg><![CDATA[-t"Tile for WPF" -f"*.sln;*.*proj" -aWDExpress.exe,VCSExpress.exe,VBExpress.exe -ni]]></arg>
+          <arg base="MyDocuments" dir="ComponentOne Samples" type="PathCombine">WPF\C1.WPF.Tile</arg>
+          <arg type="VSVersion" />
+        </Arguments>
+      </ShortCut>
+      <ShortCut LongName="Toolbar Samples">
+        <Target base="ComnFls" dir="ComponentOne Shared\SampleExplorerV4">SampleExplorer.exe</Target>
+        <WorkingDirectory base="MyDocuments" dir="ComponentOne Samples\WPF" />
+        <Location base="C1ShortCutsMenu" dir="WPF\Samples" />
+        <Arguments>
+          <arg><![CDATA[-t"Toolbar for WPF" -f"*.sln;*.*proj" -aWDExpress.exe,VCSExpress.exe,VBExpress.exe -ni]]></arg>
+          <arg base="MyDocuments" dir="ComponentOne Samples" type="PathCombine">WPF\C1.WPF.Toolbar</arg>
+          <arg type="VSVersion" />
+        </Arguments>
+      </ShortCut>
+      <ShortCut LongName="ControlExplorer">
+        <Target base="MyDocuments" dir="ComponentOne Samples\WPF\General\CS\ControlExplorer">ControlExplorer2010.4.sln</Target>
+        <Location base="C1ShortCutsMenu" dir="WPF\Samples" />
+      </ShortCut>
+    </ShortCuts>
+    <Blurb>
+      50+ WPF controls for line of business apps and data visualization.
+      Supports .NET 4.0 and higher. Download includes OLAP for WPF.
+    </Blurb>
+    <ControlRegistry>
+      <Keys>
+        <Key name="DisplayName" type="string" value="ComponentOne Studio for WPF" />
+        <Key name="DisplayVersion" type="string" value="20153.2.2" />
+        <Key name="Publisher" type="string" value="GrapeCity, Inc." />
+        <Key name="URLInfoAbout" type="string" value="http://www.componentone.com" />
+        <Key name="URLUpdateInfo" type="string" value="http://www.componentone.com" />
+        <Key name="Version" type="word" value="2015202" />
+        <Key name="VersionMajor" type="word" value="20152" />
+        <Key name="VersionMinor" type="word" value="2" />
+        <Key name="WindowsInstaller" type="word" value="0" />
+      </Keys>
+    </ControlRegistry>
+  </Product>
+
+
+  <Product name="SLV" displnm="Silverlight" grpnm="Web" version="20153.2.1"
+     slntdsplynm="SLV" ISMSI="false"
+     ThemeColor="#27aae0" ControlPanelEntry="ComponentOne Studio for Silverlight" Version="2015 v2"
+           bckgrnd="http://cellar.componentone.com/ProductImages/SilverLight.png" Size="15400" ProgressPanel="slpg">
+    <InstallCondition>(('VS2K10Installed'&lt;&gt;'' OR 'VS2K12Installed'&lt;&gt;'' OR 'VS2K13Installed'&lt;&gt;'' OR 'VS2K15Installed'&lt;&gt;'') AND ('ISSL50INSTALLED'&lt;&gt;''))</InstallCondition>
+    <DeletableDirs>
+      <!--old location-->
+      <DeleteableDir base="MyDocuments" val="ComponentOne Samples\Studio for Silverlight" newval="ComponentOne Samples\{846D8C2F-8539-4EA9-998F-FE1BB8AEFD3B}"></DeleteableDir>
+      <DeleteableDir base="PgmFls" val="ComponentOne\Studio for Silverlight" newval="ComponentOne\{35024E75-B62E-4AC1-8008-8B879B477C59}"></DeleteableDir>
+      <DeleteableDir base="C1ShortCutsMenu" val="Studio for Silverlight" newval="{B6385956-65F3-4858-A133-EF8622A47369}"></DeleteableDir>
+      <!--new location-->
+      <DeleteableDir base="MyDocuments" val="ComponentOne Samples\Silverlight" newval="ComponentOne Samples\{E6241F4B-99D6-4D39-BEC0-469D4FA45B9A}"></DeleteableDir>
+      <DeleteableDir base="PgmFls" val="ComponentOne\Silverlight Edition" newval="ComponentOne\{FF18879E-1F96-49D9-8A3E-6D43260539F0}"></DeleteableDir>
+      <DeleteableDir base="C1ShortCutsMenu" val="Silverlight" newval="{E0D4D9B6-E766-4C95-94CB-0A75B8AB4870}"></DeleteableDir>
+    </DeletableDirs>
+
+    <Dirs>
+      <Dir base="PgmFls" val="ComponentOne\Silverlight Edition">
+        <Dir name="" nosubdirs="true">
+          <extract value="http://cellar.componentone.com/staging/studio/Product/SLV/Rtdir.7z" xval="SLVRtdir.7z"></extract>
+        </Dir>
+      </Dir>
+      <Dir base="MyDocuments" val="ComponentOne Samples\Silverlight">
+        <Dir name="" nosubdirs="true">
+          <extract value="http://cellar.componentone.com/staging/studio/Product/SLV/Samples/Samples.7z" xval="SLVSamples.7z"></extract>
+        </Dir>
+      </Dir>
+      <Dir base="C1ShortCutsMenu" val="Silverlight">
+        <Dir name="Readmes" nosubdirs="true">
+          <extract></extract>
+        </Dir>
+        <Dir name="Samples" nosubdirs="true">
+          <extract></extract>
+        </Dir>
+        <Dir name="OLAP" nosubdirs="true">
+          <extract></extract>
+        </Dir>
+      </Dir>
+    </Dirs>
+    <RegistryKeys>
+      <RegistryKey base="HKLM" bsvalue="SOFTWARE\Microsoft\Microsoft SDKs\Silverlight\v5.0\AssemblyFoldersEx" name="ComponentOne Studio for Silverlight5">
+        <Default value="ComponentOne\Silverlight Edition\Bin\v5" rtdir="pgmfls"></Default>
+        <ChildKeys>
+          <ChildKey name="ToolBox">
+            <str name="TabName" value="C1 Silverlight 5.0"></str>
+            <str name="Update" value="dttm"></str>
+          </ChildKey>
+        </ChildKeys>
+      </RegistryKey>
+      <RegistryKey base="HKLM" bsvalue="SOFTWARE\Microsoft\Expression\Blend\12.0\Toolbox\Silverlight\v5.0" name="ComponentOne Studio for Silverlight5 Blend">
+        <Default value="ComponentOne\Silverlight Edition\Bin\v5" rtdir="pgmfls"></Default>
+      </RegistryKey>
+      <RegistryKey base="HKLM" bsvalue="SOFTWARE\Microsoft\Expression\Blend\5.0\Toolbox\Silverlight\v5.0" name="ComponentOne Studio for Silverlight5 Blend">
+        <Default value="ComponentOne\Silverlight Edition\Bin\v5" rtdir="pgmfls"></Default>
+      </RegistryKey>
+      <RegistryKey base="HKLM" bsvalue="SOFTWARE\Microsoft\Expression\Blend\5.0\Toolbox\.NETFramework\v4.5" name="ComponentOne Studio for Silverlight5 Blend">
+        <Default value="ComponentOne\Silverlight Edition\Bin\v5" rtdir="pgmfls"></Default>
+      </RegistryKey>
+    </RegistryKeys>
+    <ShortCuts>
+      <ShortCut LongName="Online Help">
+        <Target base="PgmFls" dir="ComponentOne\Silverlight Edition\OnlineHelp">C1SilverlightHelp.url</Target>
+        <Location base="C1ShortCutsMenu" dir="Silverlight" />
+        <icon>C1NetHelp.ico</icon>
+      </ShortCut>
+      <ShortCut LongName="Dictionary Editor">
+        <Target base="PgmFls" dir="ComponentOne\Silverlight Edition\Bin">C1DictionaryEditor.4.exe</Target>
+        <Location base="C1ShortCutsMenu" dir="Silverlight" />
+      </ShortCut>
+      <ShortCut LongName="Change log">
+        <Target base="PgmFls" dir="ComponentOne\Silverlight Edition">ChangeLog.html</Target>
+        <Location base="C1ShortCutsMenu" dir="Silverlight" />
+        <icon>C1NetHelp.ico</icon>
+      </ShortCut>
+      <ShortCut LongName="Online Help">
+        <Target base="PgmFls" dir="ComponentOne\Silverlight Edition\OnlineHelp">C1OlapSilverlightHelp.url</Target>
+        <Location base="C1ShortCutsMenu" dir="Silverlight\OLAP" />
+        <icon>C1NetHelp.ico</icon>
+      </ShortCut>
+      <ShortCut LongName="Readme">
+        <Target base="PgmFls" dir="ComponentOne\Silverlight Edition">readme.txt</Target>
+        <Location base="C1ShortCutsMenu" dir="Silverlight\Readmes" />
+      </ShortCut>
+      <ShortCut LongName="OLAP for Silverlight 5.0">
+        <Target base="ComnFls" dir="ComponentOne Shared\SampleExplorerV4">SampleExplorer.exe</Target>
+        <WorkingDirectory base="MyDocuments" dir="ComponentOne Samples\Silverlight" />
+        <Location base="C1ShortCutsMenu" dir="Silverlight\Samples" />
+        <Arguments>
+          <arg><![CDATA[-t"OLAP for Silverlight Samples" -f"*.5.*proj;*.5.sln" -aVWDExpress.exe -ni]]></arg>
+          <arg base="MyDocuments" dir="ComponentOne Samples" type="PathCombine">Silverlight\C1.Silverlight.Olap</arg>
+          <arg type="VSVersion" />
+        </Arguments>
+      </ShortCut>
+      <ShortCut LongName="Samples for Silverlight 5.0">
+        <Target base="ComnFls" dir="ComponentOne Shared\SampleExplorerV4">SampleExplorer.exe</Target>
+        <WorkingDirectory base="MyDocuments" dir="ComponentOne Samples\Silverlight" />
+        <Location base="C1ShortCutsMenu" dir="Silverlight\Samples" />
+        <Arguments>
+          <arg><![CDATA[-t"Silverlight 5.0 Samples" -f"*.5.*proj;*.5.sln" -aVWDExpress.exe -ni]]></arg>
+          <arg base="MyDocuments" dir="ComponentOne Samples" type="PathCombine">Silverlight</arg>
+          <arg type="VSVersion" />
+        </Arguments>
+      </ShortCut>
+      <ShortCut LongName="Control Explorer for Silverlight 5.0">
+        <Target base="MyDocuments" dir="ComponentOne Samples\Silverlight\General\CS\ControlExplorer">ControlExplorer2010.5.sln</Target>
+        <Location base="C1ShortCutsMenu" dir="Silverlight\Samples" />
+      </ShortCut>
+    </ShortCuts>
+    <Blurb>
+      60+ Silverlight controls for line of business apps and data
+      visualization. Supports Silverlight 5. Download includes OLAP for Silverlight.
+    </Blurb>
+    <ControlRegistry>
+      <Keys>
+        <Key name="DisplayName" type="string" value="ComponentOne Studio for Silverlight" />
+        <Key name="DisplayVersion" type="string" value="20153.2.1" />
+        <Key name="Publisher" type="string" value="GrapeCity, Inc." />
+        <Key name="URLInfoAbout" type="string" value="http://www.componentone.com" />
+        <Key name="URLUpdateInfo" type="string" value="http://www.componentone.com" />
+        <Key name="Version" type="word" value="2015202" />
+        <Key name="VersionMajor" type="word" value="20152" />
+        <Key name="VersionMinor" type="word" value="2" />
+        <Key name="WindowsInstaller" type="word" value="0" />
+      </Keys>
+    </ControlRegistry>
+  </Product>
+
+
+  <Product name="RTPhone" displnm="WinRT" grpnm="Desktop" version="20153.2.2"
+            slntdsplynm="WRT" ISMSI="false"
+     ControlPanelEntry="ComponentOne Studio for WinRT XAML 8.1" ThemeColor="#4654c9" Version="2015 v3"
+           bckgrnd="http://cellar.componentone.com/ProductImages/WinRT.png" Size="9100" ProgressPanel="phpg">
+    <InstallCondition>('ISWIN81'='6.3')</InstallCondition>
+    <DeletableDirs>
+      <!--old directories-->
+      <DeleteableDir base="MyDocuments" val="ComponentOne Samples\Studio for WinRTXaml Phone" newval="ComponentOne Samples\{BD78F5E9-8A20-45A5-A1ED-51AE9EE76716}"></DeleteableDir>
+      <DeleteableDir base="PgmFls" val="ComponentOne\Studio for WinRT XAML Phone" newval="ComponentOne\{6602346A-A921-4120-BEF6-4974FBE656BC}"></DeleteableDir>
+      <DeleteableDir base="C1ShortCutsMenu" val="Studio for WinRT XAML Phone" newval="{16828D24-D109-4920-AC25-8CDC135D84AA}"></DeleteableDir>
+      <!--new directories-->
+      <DeleteableDir base="MyDocuments" val="ComponentOne Samples\WinRTXaml Phone" newval="ComponentOne Samples\{4169B34E-EB0D-48B9-96C4-5AA0691A6B68}"></DeleteableDir>
+      <DeleteableDir base="PgmFls" val="ComponentOne\WinRT XAML Phone Edition" newval="ComponentOne\{069F9740-B42F-471E-A9E5-A9EC6BB259B4}"></DeleteableDir>
+      <DeleteableDir base="C1ShortCutsMenu" val="WinRT XAML Phone" newval="{08F4FEFE-F33C-4861-A181-CE9181627FE3}"></DeleteableDir>
+      <!--Win Extensions-->
+      <DeleteableDir base="WinV81Extensions" val="C1.Xaml" newval="{80c425aa-7f99-476e-91e6-985a13d33a21}" />
+      <DeleteableDir base="WinV81Extensions" val="C1.Xaml.Automation" newval="{9897a43d-0d6a-4b8c-9e1c-ff8e53badbd0}" />
+      <DeleteableDir base="WinV81Extensions" val="C1.Xaml.BarCode" newval="{41547900-2869-4D72-85C4-6FC302BA29A5}" />
+      <DeleteableDir base="WinV81Extensions" val="C1.Xaml.Calendar" newval="{e42e6aa5-b622-46ef-8b5d-8de2137556c7}" />
+      <DeleteableDir base="WinV81Extensions" val="C1.Xaml.Chart" newval="{62f7dad2-cdda-43be-a4d9-a49eec89cfa9}" />
+      <DeleteableDir base="WinV81Extensions" val="C1.Xaml.DateTimeEditors" newval="{522df048-47a3-4b6f-aebf-4f99df75e659}" />
+      <DeleteableDir base="WinV81Extensions" val="C1.Xaml.Document" newval="{3ab10036-f7e6-471a-a57b-e0d00a31ccc0}" />
+      <DeleteableDir base="WinV81Extensions" val="C1.Xaml.DX" newval="{5351c8a8-a7b5-468f-85e2-349c8480fa02}" />
+      <DeleteableDir base="WinV81Extensions" val="C1.Xaml.Excel" newval="{0f51da09-7715-4ae3-988f-9b84b3471d0f}" />
+      <DeleteableDir base="WinV81Extensions" val="C1.Xaml.Extended" newval="{a3dafe05-c69e-4dfe-9f2a-b9524d3c9df3}" />
+      <DeleteableDir base="WinV81Extensions" val="C1.Xaml.FlexGrid" newval="{2c258f3a-bffd-4b5a-b3d3-a859a227a889}" />
+      <DeleteableDir base="WinV81Extensions" val="C1.Xaml.Gauge" newval="{4e0ed841-f4c6-4c13-a916-d9eba4e4f449}" />
+      <DeleteableDir base="WinV81Extensions" val="C1.Xaml.Imaging" newval="{eb64a482-4e71-4dc3-a782-c5250d56379e}" />
+      <DeleteableDir base="WinV81Extensions" val="C1.Xaml.ImportServices" newval="{D7784107-798A-42F6-9A2F-501CBB5A8104}" />
+      <DeleteableDir base="WinV81Extensions" val="C1.Xaml.Maps" newval="{82bd46b8-158c-42cd-bc1b-92350ece097c}" />
+      <DeleteableDir base="WinV81Extensions" val="C1.Xaml.OrgChart" newval="{b69b83c2-8677-4d85-b9e5-20e80bebafdd}" />
+      <DeleteableDir base="WinV81Extensions" val="C1.Xaml.Pdf" newval="{2ef30b67-078c-40cb-a483-9b20280f20f3}" />
+      <DeleteableDir base="WinV81Extensions" val="C1.Xaml.PdfViewer" newval="{114a9a2a-ec8e-47a2-b4a7-f55686acf030}" />
+      <DeleteableDir base="WinV81Extensions" val="C1.Xaml.RichTextBox" newval="{50a3c983-4749-41ec-825e-28c51c3d00ce}" />
+      <DeleteableDir base="WinV81Extensions" val="C1.Xaml.RichTextBox.AppBar" newval="{903cebf5-2ee4-473d-ad9b-e76753b7b704}" />
+      <DeleteableDir base="WinV81Extensions" val="C1.Xaml.RichTextBox.Menu" newval="{8fd0b29c-d4db-421c-9eb4-9f5035181ed0}" />
+      <DeleteableDir base="WinV81Extensions" val="C1.Xaml.RichTextBox.PdfFilter" newval="{8283e2c6-63ae-418b-9ab0-81c7e7652a37}" />
+      <DeleteableDir base="WinV81Extensions" val="C1.Xaml.Schedule" newval="{d7c74304-a68f-4cb5-8d98-0f176dc1907c}" />
+      <DeleteableDir base="WinV81Extensions" val="C1.Xaml.Sparkline" newval="{a86283d7-6957-45a1-9bde-4887b01a9e2f}" />
+      <DeleteableDir base="WinV81Extensions" val="C1.Xaml.SpellChecker" newval="{3cc93380-430a-4339-92a4-699c87dee035}" />
+      <DeleteableDir base="WinV81Extensions" val="C1.Xaml.SsrsViewer" newval="{e22fd3db-fb76-4b74-a193-8d60dda3b196}" />
+      <DeleteableDir base="WinV81Extensions" val="C1.Xaml.Tile" newval="{f975718c-3304-4b7f-b6f9-6d485d9f11d2}" />
+      <DeleteableDir base="WinV81Extensions" val="C1.Xaml.TileView" newval="{f0abbe63-de58-4c40-b6ff-364d23c3ebe3}" />
+      <DeleteableDir base="WinV81Extensions" val="C1.Xaml.Zip" newval="{6b5739e0-804f-48af-b682-75dd0156167d}" />
+      <!--Phone Extensions-->
+      <DeleteableDir base="PhnV81Extensions" val="C1.Xaml" newval="{aef9b657-732b-491b-8191-23c9382fa36e}" />
+      <DeleteableDir base="PhnV81Extensions" val="C1.Xaml.BarCode" newval="{DA2E5FA2-DF31-44D3-AB11-43BC8BBD7E0D}" />
+      <DeleteableDir base="PhnV81Extensions" val="C1.Xaml.Calendar" newval="{d53c7c66-ae58-4938-8236-3cb4ebd4d992}" />
+      <DeleteableDir base="PhnV81Extensions" val="C1.Xaml.Chart" newval="{40435436-64c7-4d60-a7f9-384746cb0976}" />
+      <DeleteableDir base="PhnV81Extensions" val="C1.Xaml.DX" newval="{056bc5cd-1eb4-47ab-bbe0-91bba6f05a6a}" />
+      <DeleteableDir base="PhnV81Extensions" val="C1.Xaml.Excel" newval="{e5f0d536-48cc-4be2-ba1e-34bb4a68b0f7}" />
+      <DeleteableDir base="PhnV81Extensions" val="C1.Xaml.FlexGrid" newval="{a839764e-1ac4-4e41-84bb-3b60db60e149}" />
+      <DeleteableDir base="PhnV81Extensions" val="C1.Xaml.Gauge" newval="{2515e90f-7b90-4cad-96d2-bfbf7efc9b89}" />
+      <DeleteableDir base="PhnV81Extensions" val="C1.Xaml.Imaging" newval="{03687159-c22f-4f31-a0df-e787ca1d3ca3}" />
+      <DeleteableDir base="PhnV81Extensions" val="C1.Xaml.Maps" newval="{4aa0f242-4348-43aa-9fde-d44da62df03e}" />
+      <DeleteableDir base="PhnV81Extensions" val="C1.Xaml.OrgChart" newval="{AEAECE2F-5A47-447D-811C-6FF1DA0AB263}" />
+      <DeleteableDir base="PhnV81Extensions" val="C1.Xaml.Pdf" newval="{d2095d55-3898-490a-9352-d9b4b64d8e73}" />
+      <DeleteableDir base="PhnV81Extensions" val="C1.Xaml.PdfViewer" newval="{e4492844-1aa0-48c3-8fec-21d9ef15d12d}" />
+      <DeleteableDir base="PhnV81Extensions" val="C1.Xaml.RichTextBox" newval="{d6d57fdd-682b-43d3-8449-ff6c1c02cdd0}" />
+      <DeleteableDir base="PhnV81Extensions" val="C1.Xaml.RichTextBox.AppBar" newval="{61f580ba-35b5-47d9-b9b7-120886c45b41}" />
+      <DeleteableDir base="PhnV81Extensions" val="C1.Xaml.Sparkline" newval="{3AD33FEF-687B-4065-8655-2654A92BD55B}" />
+      <DeleteableDir base="PhnV81Extensions" val="C1.Xaml.Tile" newval="{9cccba5f-0905-496c-9447-2c972bb3d2b7}" />
+      <DeleteableDir base="PhnV81Extensions" val="C1.Xaml.Zip" newval="{2a189e2c-2214-46fd-b2b5-c65d8be1dffe}" />
+    </DeletableDirs>
+    <Dirs>
+      <Dir base="PgmFls" val="ComponentOne\WinRT XAML Phone Edition">
+        <Dir name="" nosubdirs="true">
+          <extract value="http://cellar.componentone.com/staging/studio/Product/RTPhone/BinDir/RtDir.7z" xval="RTrt.7z"></extract>
+        </Dir>
+      </Dir>
+      <Dir base="MyDocuments" val="ComponentOne Samples\WinRTXaml Phone">
+        <Dir name="" nosubdirs="true">
+          <extract value="http://cellar.componentone.com/staging/studio/Product/RTPhone/Samples/Samples.7z" xval="RtSamples.7z"></extract>
+        </Dir>
+      </Dir>
+      <Dir base="WinV81Extensions" val="">
+        <Dir name="C1.Xaml" nosubdirs="true">
+          <extract value="http://cellar.componentone.com/staging/studio/Product/RTPhone/SDKDir/Win/C1.Xaml.7z" xval="RTXW1.7z" />
+        </Dir>
+        <Dir name="C1.Xaml.Automation" nosubdirs="true">
+          <extract value="http://cellar.componentone.com/staging/studio/Product/RTPhone/SDKDir/Win/C1.Xaml.Automation.7z" xval="RTXW2.7z" />
+        </Dir>
+        <Dir name="C1.Xaml.BarCode" nosubdirs="true">
+          <extract value="http://cellar.componentone.com/staging/studio/Product/RTPhone/SDKDir/Win/C1.Xaml.BarCode.7z" xval="RTXW3.7z" />
+        </Dir>
+        <Dir name="C1.Xaml.Calendar" nosubdirs="true">
+          <extract value="http://cellar.componentone.com/staging/studio/Product/RTPhone/SDKDir/Win/C1.Xaml.Calendar.7z" xval="RTXW4.7z" />
+        </Dir>
+        <Dir name="C1.Xaml.Chart" nosubdirs="true">
+          <extract value="http://cellar.componentone.com/staging/studio/Product/RTPhone/SDKDir/Win/C1.Xaml.Chart.7z" xval="RTXW5.7z" />
+        </Dir>
+        <Dir name="C1.Xaml.DateTimeEditors" nosubdirs="true">
+          <extract value="http://cellar.componentone.com/staging/studio/Product/RTPhone/SDKDir/Win/C1.Xaml.DateTimeEditors.7z" xval="RTXW6.7z" />
+        </Dir>
+        <Dir name="C1.Xaml.Document" nosubdirs="true">
+          <extract value="http://cellar.componentone.com/staging/studio/Product/RTPhone/SDKDir/Win/C1.Xaml.Document.7z" xval="RTXW7.7z" />
+        </Dir>
+        <Dir name="C1.Xaml.DX" nosubdirs="true">
+          <extract value="http://cellar.componentone.com/staging/studio/Product/RTPhone/SDKDir/Win/C1.Xaml.DX.7z" xval="RTXW8.7z" />
+        </Dir>
+        <Dir name="C1.Xaml.Excel" nosubdirs="true">
+          <extract value="http://cellar.componentone.com/staging/studio/Product/RTPhone/SDKDir/Win/C1.Xaml.Excel.7z" xval="RTXW9.7z" />
+        </Dir>
+        <Dir name="C1.Xaml.Extended" nosubdirs="true">
+          <extract value="http://cellar.componentone.com/staging/studio/Product/RTPhone/SDKDir/Win/C1.Xaml.Extended.7z" xval="RTXW10.7z" />
+        </Dir>
+        <Dir name="C1.Xaml.FlexGrid" nosubdirs="true">
+          <extract value="http://cellar.componentone.com/staging/studio/Product/RTPhone/SDKDir/Win/C1.Xaml.FlexGrid.7z" xval="RTXW11.7z" />
+        </Dir>
+        <Dir name="C1.Xaml.Gauge" nosubdirs="true">
+          <extract value="http://cellar.componentone.com/staging/studio/Product/RTPhone/SDKDir/Win/C1.Xaml.Gauge.7z" xval="RTXW12.7z" />
+        </Dir>
+        <Dir name="C1.Xaml.Imaging" nosubdirs="true">
+          <extract value="http://cellar.componentone.com/staging/studio/Product/RTPhone/SDKDir/Win/C1.Xaml.Imaging.7z" xval="RTXW13.7z" />
+        </Dir>
+        <Dir name="C1.Xaml.ImportServices" nosubdirs="true">
+          <extract value="http://cellar.componentone.com/staging/studio/Product/RTPhone/SDKDir/Win/C1.Xaml.ImportServices.7z" xval="RTXW14.7z" />
+        </Dir>
+        <Dir name="C1.Xaml.Maps" nosubdirs="true">
+          <extract value="http://cellar.componentone.com/staging/studio/Product/RTPhone/SDKDir/Win/C1.Xaml.Maps.7z" xval="RTXW15.7z" />
+        </Dir>
+        <Dir name="C1.Xaml.OrgChart" nosubdirs="true">
+          <extract value="http://cellar.componentone.com/staging/studio/Product/RTPhone/SDKDir/Win/C1.Xaml.OrgChart.7z" xval="RTXW16.7z" />
+        </Dir>
+        <Dir name="C1.Xaml.Pdf" nosubdirs="true">
+          <extract value="http://cellar.componentone.com/staging/studio/Product/RTPhone/SDKDir/Win/C1.Xaml.Pdf.7z" xval="RTXW17.7z" />
+        </Dir>
+        <Dir name="C1.Xaml.PdfViewer" nosubdirs="true">
+          <extract value="http://cellar.componentone.com/staging/studio/Product/RTPhone/SDKDir/Win/C1.Xaml.PdfViewer.7z" xval="RTXW18.7z" />
+        </Dir>
+        <Dir name="C1.Xaml.RichTextBox" nosubdirs="true">
+          <extract value="http://cellar.componentone.com/staging/studio/Product/RTPhone/SDKDir/Win/C1.Xaml.RichTextBox.7z" xval="RTXW19.7z" />
+        </Dir>
+        <Dir name="C1.Xaml.RichTextBox.AppBar" nosubdirs="true">
+          <extract value="http://cellar.componentone.com/staging/studio/Product/RTPhone/SDKDir/Win/C1.Xaml.RichTextBox.AppBar.7z" xval="RTXW20.7z" />
+        </Dir>
+        <Dir name="C1.Xaml.RichTextBox.Menu" nosubdirs="true">
+          <extract value="http://cellar.componentone.com/staging/studio/Product/RTPhone/SDKDir/Win/C1.Xaml.RichTextBox.Menu.7z" xval="RTXW21.7z" />
+        </Dir>
+        <Dir name="C1.Xaml.RichTextBox.PdfFilter" nosubdirs="true">
+          <extract value="http://cellar.componentone.com/staging/studio/Product/RTPhone/SDKDir/Win/C1.Xaml.RichTextBox.PdfFilter.7z" xval="RTXW22.7z" />
+        </Dir>
+        <Dir name="C1.Xaml.Schedule" nosubdirs="true">
+          <extract value="http://cellar.componentone.com/staging/studio/Product/RTPhone/SDKDir/Win/C1.Xaml.Schedule.7z" xval="RTXW23.7z" />
+        </Dir>
+        <Dir name="C1.Xaml.Sparkline" nosubdirs="true">
+          <extract value="http://cellar.componentone.com/staging/studio/Product/RTPhone/SDKDir/Win/C1.Xaml.Sparkline.7z" xval="RTXW24.7z" />
+        </Dir>
+        <Dir name="C1.Xaml.SpellChecker" nosubdirs="true">
+          <extract value="http://cellar.componentone.com/staging/studio/Product/RTPhone/SDKDir/Win/C1.Xaml.SpellChecker.7z" xval="RTXW25.7z" />
+        </Dir>
+        <Dir name="C1.Xaml.SsrsViewer" nosubdirs="true">
+          <extract value="http://cellar.componentone.com/staging/studio/Product/RTPhone/SDKDir/Win/C1.Xaml.SsrsViewer.7z" xval="RTXW26.7z" />
+        </Dir>
+        <Dir name="C1.Xaml.Tile" nosubdirs="true">
+          <extract value="http://cellar.componentone.com/staging/studio/Product/RTPhone/SDKDir/Win/C1.Xaml.Tile.7z" xval="RTXW27.7z" />
+        </Dir>
+        <Dir name="C1.Xaml.TileView" nosubdirs="true">
+          <extract value="http://cellar.componentone.com/staging/studio/Product/RTPhone/SDKDir/Win/C1.Xaml.TileView.7z" xval="RTXW28.7z" />
+        </Dir>
+        <Dir name="C1.Xaml.Zip" nosubdirs="true">
+          <extract value="http://cellar.componentone.com/staging/studio/Product/RTPhone/SDKDir/Win/C1.Xaml.Zip.7z" xval="RTXW29.7z" />
+        </Dir>
+      </Dir>
+      <Dir base="PhnV81Extensions" val="">
+        <Dir name="C1.Xaml" nosubdirs="true">
+          <extract value="http://cellar.componentone.com/staging/studio/Product/RTPhone/SDKDir/Phone/C1.Xaml.7z" xval="RTXP1.7z" />
+        </Dir>
+        <Dir name="C1.Xaml.BarCode" nosubdirs="true">
+          <extract value="http://cellar.componentone.com/staging/studio/Product/RTPhone/SDKDir/Phone/C1.Xaml.BarCode.7z" xval="RTXP2.7z" />
+        </Dir>
+        <Dir name="C1.Xaml.Calendar" nosubdirs="true">
+          <extract value="http://cellar.componentone.com/staging/studio/Product/RTPhone/SDKDir/Phone/C1.Xaml.Calendar.7z" xval="RTXP3.7z" />
+        </Dir>
+        <Dir name="C1.Xaml.Chart" nosubdirs="true">
+          <extract value="http://cellar.componentone.com/staging/studio/Product/RTPhone/SDKDir/Phone/C1.Xaml.Chart.7z" xval="RTXP4.7z" />
+        </Dir>
+        <Dir name="C1.Xaml.DX" nosubdirs="true">
+          <extract value="http://cellar.componentone.com/staging/studio/Product/RTPhone/SDKDir/Phone/C1.Xaml.DX.7z" xval="RTXP5.7z" />
+        </Dir>
+        <Dir name="C1.Xaml.Excel" nosubdirs="true">
+          <extract value="http://cellar.componentone.com/staging/studio/Product/RTPhone/SDKDir/Phone/C1.Xaml.Excel.7z" xval="RTXP6.7z" />
+        </Dir>
+        <Dir name="C1.Xaml.FlexGrid" nosubdirs="true">
+          <extract value="http://cellar.componentone.com/staging/studio/Product/RTPhone/SDKDir/Phone/C1.Xaml.FlexGrid.7z" xval="RTXP7.7z" />
+        </Dir>
+        <Dir name="C1.Xaml.Gauge" nosubdirs="true">
+          <extract value="http://cellar.componentone.com/staging/studio/Product/RTPhone/SDKDir/Phone/C1.Xaml.Gauge.7z" xval="RTXP8.7z" />
+        </Dir>
+        <Dir name="C1.Xaml.Imaging" nosubdirs="true">
+          <extract value="http://cellar.componentone.com/staging/studio/Product/RTPhone/SDKDir/Phone/C1.Xaml.Imaging.7z" xval="RTXP9.7z" />
+        </Dir>
+        <Dir name="C1.Xaml.Maps" nosubdirs="true">
+          <extract value="http://cellar.componentone.com/staging/studio/Product/RTPhone/SDKDir/Phone/C1.Xaml.Maps.7z" xval="RTXP10.7z" />
+        </Dir>
+        <Dir name="C1.Xaml.OrgChart" nosubdirs="true">
+          <extract value="http://cellar.componentone.com/staging/studio/Product/RTPhone/SDKDir/Phone/C1.Xaml.OrgChart.7z" xval="RTXP11.7z" />
+        </Dir>
+        <Dir name="C1.Xaml.Pdf" nosubdirs="true">
+          <extract value="http://cellar.componentone.com/staging/studio/Product/RTPhone/SDKDir/Phone/C1.Xaml.Pdf.7z" xval="RTXP12.7z" />
+        </Dir>
+        <Dir name="C1.Xaml.PdfViewer" nosubdirs="true">
+          <extract value="http://cellar.componentone.com/staging/studio/Product/RTPhone/SDKDir/Phone/C1.Xaml.PdfViewer.7z" xval="RTXP13.7z" />
+        </Dir>
+        <Dir name="C1.Xaml.RichTextBox" nosubdirs="true">
+          <extract value="http://cellar.componentone.com/staging/studio/Product/RTPhone/SDKDir/Phone/C1.Xaml.RichTextBox.7z" xval="RTXP14.7z" />
+        </Dir>
+        <Dir name="C1.Xaml.RichTextBox.AppBar" nosubdirs="true">
+          <extract value="http://cellar.componentone.com/staging/studio/Product/RTPhone/SDKDir/Phone/C1.Xaml.RichTextBox.AppBar.7z" xval="RTXP15.7z" />
+        </Dir>
+        <Dir name="C1.Xaml.Sparkline" nosubdirs="true">
+          <extract value="http://cellar.componentone.com/staging/studio/Product/RTPhone/SDKDir/Phone/C1.Xaml.Sparkline.7z" xval="RTXP16.7z" />
+        </Dir>
+        <Dir name="C1.Xaml.Tile" nosubdirs="true">
+          <extract value="http://cellar.componentone.com/staging/studio/Product/RTPhone/SDKDir/Phone/C1.Xaml.Tile.7z" xval="RTXP17.7z" />
+        </Dir>
+        <Dir name="C1.Xaml.Zip" nosubdirs="true">
+          <extract value="http://cellar.componentone.com/staging/studio/Product/RTPhone/SDKDir/Phone/C1.Xaml.Zip.7z" xval="RTXP18.7z" />
+        </Dir>
+      </Dir>
+      <Dir base="C1ShortCutsMenu" val="WinRT XAML Phone">
+        <Dir name="" nosubdirs="true">
+          <extract></extract>
+        </Dir>
+        <Dir name="Samples" nosubdirs="true">
+          <extract></extract>
+        </Dir>
+        <Dir name="Online Help" nosubdirs="true">
+          <extract></extract>
+        </Dir>
+      </Dir>
+    </Dirs>
+    <Blurb>
+      40+ UI controls for building Windows Store and
+      Universal Windows Phone 8.1 apps.
+    </Blurb>
+    <ShortCuts>
+      <ShortCut LongName="C1DictionaryEditor">
+        <Target base="PgmFls" dir="ComponentOne\WinRT XAML Phone Edition\bin">C1DictionaryEditor.4.exe</Target>
+        <Location base="C1ShortCutsMenu" dir="WinRT XAML Phone"></Location>
+      </ShortCut>
+      <ShortCut LongName="ChangeLog">
+        <Target base="PgmFls" dir="ComponentOne\WinRT XAML Phone Edition">ChangeLog.html</Target>
+        <Location base="C1ShortCutsMenu" dir="WinRT XAML Phone"></Location>
+        <icon>C1NetHelp.ico</icon>
+      </ShortCut>
+      <ShortCut LongName="WinRTXaml Readme">
+        <Target base="PgmFls" dir="ComponentOne\WinRT XAML Phone Edition">readme.txt</Target>
+        <Location base="C1ShortCutsMenu" dir="WinRT XAML Phone"></Location>
+      </ShortCut>
+      <ShortCut LongName="Online Help">
+        <Target base="PgmFls" dir="ComponentOne\WinRT XAML Phone Edition\Online Help">C1WinRTXAML_Help.url</Target>
+        <Location base="C1ShortCutsMenu" dir="WinRT XAML Phone\Online Help"></Location>
+        <icon>C1NetHelp.ico</icon>
+      </ShortCut>
+      <ShortCut LongName="Control Explorer for WinRT XAML">
+        <Target base="MyDocuments" dir="ComponentOne Samples\WinRTXaml Phone\General\CS\ControlExplorer">ControlExplorer2013.sln</Target>
+        <Location base="C1ShortCutsMenu" dir="WinRT XAML Phone\Samples"></Location>
+      </ShortCut>
+      <ShortCut LongName="Control Explorer for Phone">
+        <Target base="MyDocuments" dir="ComponentOne Samples\WinRTXaml Phone\General\CS\ControlExplorer.Phone">ControlExplorer.sln</Target>
+        <Location base="C1ShortCutsMenu" dir="WinRT XAML Phone\Samples"></Location>
+      </ShortCut>
+      <ShortCut LongName="Samples for WinRTXAML">
+        <WorkingDirectory base="MyDocuments" dir="ComponentOne Samples\WinRTXaml Phone" />
+        <Target base="ComnFls" dir="ComponentOne Shared\SampleExplorerV4">SampleExplorer.exe</Target>
+        <Location base="C1ShortCutsMenu" dir="WinRT XAML Phone\Samples" />
+        <Arguments>
+          <arg><![CDATA[-t"WinRTXAML 8.1 Samples" -f"*.*proj;*.sln" -ni]]></arg>
+          <arg base="MyDocuments" dir="ComponentOne Samples" type="PathCombine">WinRTXaml Phone</arg>
+          <arg type="VSVersion" />
+        </Arguments>
+      </ShortCut>
+    </ShortCuts>
+    <ControlRegistry>
+      <Keys>
+        <Key name="DisplayName" type="string" value="ComponentOne Studio for WinRT XAML 8.1" />
+        <Key name="DisplayVersion" type="string" value="20153.2.2" />
+        <Key name="Publisher" type="string" value="GrapeCity, Inc." />
+        <Key name="URLInfoAbout" type="string" value="http://www.componentone.com" />
+        <Key name="URLUpdateInfo" type="string" value="http://www.componentone.com" />
+        <Key name="Version" type="word" value="2015202" />
+        <Key name="VersionMajor" type="word" value="20152" />
+        <Key name="VersionMinor" type="word" value="2" />
+        <Key name="WindowsInstaller" type="word" value="0" />
+      </Keys>
+    </ControlRegistry>
+  </Product>
+
+
+  <Product name="LightSwitch" displnm="LightSwitch" grpnm="Web" version="20153.2.1" ControlPanelEntry="ComponentOne Studio for LightSwitch"
+            ThemeColor="#7b05f1" Version="2015 v2"
+     slntdsplynm="LIS" ISMSI="false"
+     bckgrnd="http://cellar.componentone.com/ProductImages/LightSwitch.png" Size="6200" ProgressPanel="lspg">
+    <DeletableDirs>
+      <!--old directories-->
+      <DeleteableDir base="PgmFls" val="ComponentOne\Studio for LightSwitch" newval="ComponentOne\{4504311E-2016-40AF-B1B9-87A221447F81}"></DeleteableDir>
+      <DeleteableDir base="MyDocuments" val="ComponentOne Samples\LightSwitch Cloud Business Apps" newval="ComponentOne Samples\{28392979-06B5-482E-9584-2475A4EBF2A9}"></DeleteableDir>
+      <DeleteableDir base="C1ShortCutsMenu" val="Studio for LightSwitch Desktop" newval="{F13230A7-70B8-43BF-94C8-398D0E58FC04}"></DeleteableDir>
+      <DeleteableDir base="C1ShortCutsMenu" val="Studio for LightSwitch HTML" newval="{AF2B7D30-48CD-45D8-BA09-F788B61B06E5}"></DeleteableDir>
+      <!--new directories-->
+      <DeleteableDir base="PgmFls" val="ComponentOne\LightSwitch Edition" newval="ComponentOne\{A8E3393B-1757-4330-BC08-6018AFE99F21}"></DeleteableDir>
+      <DeleteableDir base="C1ShortCutsMenu" val="LightSwitch Desktop" newval="{376BEA2E-46B6-47CB-8FF5-7622894BF370}"></DeleteableDir>
+      <DeleteableDir base="C1ShortCutsMenu" val="LightSwitch HTML" newval="{9C3FFB39-94A4-44F8-815A-1B1CEFBE06CE}"></DeleteableDir>
+      <!--VS2k12Extensions-->
+      <DeleteableDir base="VS2K12Extensions" val="ComponentOne\ComponentOne Scheduler for LightSwitch" newval="ComponentOne\{21712997-9d26-43a2-972b-1e26497ba76b}" />
+      <DeleteableDir base="VS2K12Extensions" val="ComponentOne\ComponentOne Chart for LightSwitch" newval="ComponentOne\{6190f096-cf08-4d60-a0b8-157ea31e286b}" />
+      <DeleteableDir base="VS2K12Extensions" val="ComponentOne\ComponentOne D3 Controls for LightSwitch HTML" newval="ComponentOne\{6afa1859-202d-48e2-befa-d8507e27052f}" />
+      <DeleteableDir base="VS2K12Extensions" val="ComponentOne\ComponentOne FlexGrid for LightSwitch" newval="ComponentOne\{94437cea-6a76-4920-80b5-76712a08ab45}" />
+      <DeleteableDir base="VS2K12Extensions" val="ComponentOne\ComponentOne OLAP for LightSwitch" newval="ComponentOne\{db352d87-b45f-466b-b63a-886e36fe47e3}" />
+      <DeleteableDir base="VS2K12Extensions" val="ComponentOne\ComponentOne PdfViewer for LightSwitch" newval="ComponentOne\{500ce5b3-d145-490b-9792-393355b88367}" />
+      <DeleteableDir base="VS2K12Extensions" val="ComponentOne\ComponentOne RichTextBox for LightSwitch" newval="ComponentOne\{65b98f81-af65-4c58-81d5-c8a5da923df7}" />
+      <DeleteableDir base="VS2K12Extensions" val="ComponentOne\ComponentOne Studio for LightSwitch HTML" newval="ComponentOne\{a2422a61-e762-4187-83c7-1334dc42e03f}" />
+      <DeleteableDir base="VS2K12Extensions" val="ComponentOne\ComponentOne Studio for LightSwitch HTML v5" newval="ComponentOne\{B52F7EF4-DA36-4074-AB0D-F2CCBB7621DA}" />
+      <DeleteableDir base="VS2K12Extensions" val="ComponentOne\ComponentOne Studio for LightSwitch HTML5 Rguge" newval="ComponentOne\{B028A0AF-3447-45AC-AB18-83634377D854}" />
+      <DeleteableDir base="VS2K12Extensions" val="ComponentOne\ComponentOne Studio for LightSwitch HTML5 Lguge" newval="ComponentOne\{AACF6E07-C850-4666-A156-EB10A2CAF79D}" />
+      <DeleteableDir base="VS2K12Extensions" val="ComponentOne\ComponentOne Studio for LightSwitch HTML5 FlxPie" newval="ComponentOne\{C5F55FA0-F38D-452D-A362-69FA005EBD29}" />
+      <DeleteableDir base="VS2K12Extensions" val="ComponentOne\ComponentOne Studio for LightSwitch HTML5 FlxGrid" newval="ComponentOne\{5461DCB2-F555-462E-AA86-0D974D5733E5}" />
+      <DeleteableDir base="VS2K12Extensions" val="ComponentOne\ComponentOne Studio for LightSwitch HTML5 FlxChrt" newval="ComponentOne\{49C3CF95-5C86-4D9F-A840-FEA4A554F444}" />
+      <DeleteableDir base="VS2K12Extensions" val="ComponentOne\ComponentOne Studio for LightSwitch HTML5 BltGrph" newval="ComponentOne\{74300C17-4687-49F5-86AF-3BB38077D496}" />
+      <DeleteableDir base="VS2K12Extensions" val="ComponentOne\ComponentOne Studio for LightSwitch HTML5 Input" newval="ComponentOne\{1BC46BF2-F7DA-4801-9AEA-E6FCD180B044}" />
+      <DeleteableDir base="VS2K12Extensions" val="ComponentOne\ComponentOne Studio for LightSwitch HTML5 Menu" newval="ComponentOne\{3E5EBF23-3154-4FB4-8F1B-AC3DAA2EDA89}" />
+      <DeleteableDir base="VS2K12Extensions" val="ComponentOne\ComponentOne Studio for LightSwitch HTML5 Select" newval="ComponentOne\{94A64B20-B337-443A-B51E-293FD2A2F18D}" />
+      <!--VS2K13Extensions-->
+      <DeleteableDir base="VS2K13Extensions" val="ComponentOne\ComponentOne Scheduler for LightSwitch" newval="ComponentOne\{36f22f7e-952f-4966-9207-604ded430e85}" />
+      <DeleteableDir base="VS2K13Extensions" val="ComponentOne\ComponentOne Chart for LightSwitch" newval="ComponentOne\{5dba6652-340e-4293-adbf-0ef77e42d37a}" />
+      <DeleteableDir base="VS2K13Extensions" val="ComponentOne\ComponentOne D3 Controls for LightSwitch HTML" newval="ComponentOne\{a2ef6350-3dd7-473f-bfda-c3f3d9eb6515}" />
+      <DeleteableDir base="VS2K13Extensions" val="ComponentOne\ComponentOne FlexGrid for LightSwitch" newval="ComponentOne\{991d1821-4f57-489b-8f3e-b3904e4d2b4c}" />
+      <DeleteableDir base="VS2K13Extensions" val="ComponentOne\ComponentOne OLAP for LightSwitch" newval="ComponentOne\{406c6bda-47ae-49c6-9d13-9047e6e180b5}" />
+      <DeleteableDir base="VS2K13Extensions" val="ComponentOne\ComponentOne PdfViewer for LightSwitch" newval="ComponentOne\{1b39451b-707e-4fa0-97b9-d8f383f32d14}" />
+      <DeleteableDir base="VS2K13Extensions" val="ComponentOne\ComponentOne RichTextBox for LightSwitch" newval="ComponentOne\{2caae5a6-d1cc-4939-ae5a-d279c714f844}" />
+      <DeleteableDir base="VS2K13Extensions" val="ComponentOne\ComponentOne Studio for LightSwitch HTML" newval="ComponentOne\{70424491-05ed-481b-81da-98d1b3b01367}" />
+      <DeleteableDir base="VS2K13Extensions" val="ComponentOne\ComponentOne Studio for LightSwitch HTML v5" newval="ComponentOne\{CDE7D089-67D8-4450-93D0-81D352B2778E}" />
+      <DeleteableDir base="VS2K13Extensions" val="ComponentOne\ComponentOne Studio for LightSwitch HTML5 Rguge" newval="ComponentOne\{B028A0AF-3447-45AC-AB18-83634377D854}" />
+      <DeleteableDir base="VS2K13Extensions" val="ComponentOne\ComponentOne Studio for LightSwitch HTML5 Lguge" newval="ComponentOne\{AACF6E07-C850-4666-A156-EB10A2CAF79D}" />
+      <DeleteableDir base="VS2K13Extensions" val="ComponentOne\ComponentOne Studio for LightSwitch HTML5 FlxPie" newval="ComponentOne\{C5F55FA0-F38D-452D-A362-69FA005EBD29}" />
+      <DeleteableDir base="VS2K13Extensions" val="ComponentOne\ComponentOne Studio for LightSwitch HTML5 FlxGrid" newval="ComponentOne\{5461DCB2-F555-462E-AA86-0D974D5733E5}" />
+      <DeleteableDir base="VS2K13Extensions" val="ComponentOne\ComponentOne Studio for LightSwitch HTML5 FlxChrt" newval="ComponentOne\{49C3CF95-5C86-4D9F-A840-FEA4A554F444}" />
+      <DeleteableDir base="VS2K13Extensions" val="ComponentOne\ComponentOne Studio for LightSwitch HTML5 BltGrph" newval="ComponentOne\{74300C17-4687-49F5-86AF-3BB38077D496}" />
+      <DeleteableDir base="VS2K13Extensions" val="ComponentOne\ComponentOne Studio for LightSwitch HTML5 Input" newval="ComponentOne\{DD295F99-D4E4-4024-AD94-39D045048609}" />
+      <DeleteableDir base="VS2K13Extensions" val="ComponentOne\ComponentOne Studio for LightSwitch HTML5 Menu" newval="ComponentOne\{EEC3C530-5BF3-4859-81D6-86C4738B888F}" />
+      <DeleteableDir base="VS2K13Extensions" val="ComponentOne\ComponentOne Studio for LightSwitch HTML5 Select" newval="ComponentOne\{9B2872D7-8A5F-4206-A8BD-1E6611FE1ED4}" />
+      <!--VS2K15Extensions-->
+      <DeleteableDir base="VS2K15Extensions" val="ComponentOne\ComponentOne Scheduler for LightSwitch" newval="ComponentOne\{5045378F-877B-41BF-B03A-26A24F6A40D6}" />
+      <DeleteableDir base="VS2K15Extensions" val="ComponentOne\ComponentOne Chart for LightSwitch" newval="ComponentOne\{049EEB17-4920-48E1-BA7D-8AEE07BD71A8}" />
+      <DeleteableDir base="VS2K15Extensions" val="ComponentOne\ComponentOne D3 Controls for LightSwitch HTML" newval="ComponentOne\{75437F9C-88B7-4D99-95B1-54B0A355B725}" />
+      <DeleteableDir base="VS2K15Extensions" val="ComponentOne\ComponentOne FlexGrid for LightSwitch" newval="ComponentOne\{EE0F8A4A-DC1F-4EE5-8760-AA83746279E4}" />
+      <DeleteableDir base="VS2K15Extensions" val="ComponentOne\ComponentOne OLAP for LightSwitch" newval="ComponentOne\{DEE6050F-E228-4A20-B3E3-8269B30D790D}" />
+      <DeleteableDir base="VS2K15Extensions" val="ComponentOne\ComponentOne PdfViewer for LightSwitch" newval="ComponentOne\{64AB05AE-061C-470C-820C-0BEF957DB291}" />
+      <DeleteableDir base="VS2K15Extensions" val="ComponentOne\ComponentOne RichTextBox for LightSwitch" newval="ComponentOne\{6DD3159F-0CA7-4D5A-B476-6EE9C286620B}" />
+      <DeleteableDir base="VS2K15Extensions" val="ComponentOne\ComponentOne Studio for LightSwitch HTML" newval="ComponentOne\{0C9C6872-7DD3-4F6B-94F6-CC69567E9D29}" />
+      <DeleteableDir base="VS2K15Extensions" val="ComponentOne\ComponentOne Studio for LightSwitch HTML v5" newval="ComponentOne\{50680654-AE84-4283-9FE8-56B9A7A0E5B7}" />
+      <DeleteableDir base="VS2K15Extensions" val="ComponentOne\ComponentOne Studio for LightSwitch HTML5 Rguge" newval="ComponentOne\{B028A0AF-3447-45AC-AB18-83634377D854}" />
+      <DeleteableDir base="VS2K15Extensions" val="ComponentOne\ComponentOne Studio for LightSwitch HTML5 Lguge" newval="ComponentOne\{AACF6E07-C850-4666-A156-EB10A2CAF79D}" />
+      <DeleteableDir base="VS2K15Extensions" val="ComponentOne\ComponentOne Studio for LightSwitch HTML5 FlxPie" newval="ComponentOne\{C5F55FA0-F38D-452D-A362-69FA005EBD29}" />
+      <DeleteableDir base="VS2K15Extensions" val="ComponentOne\ComponentOne Studio for LightSwitch HTML5 FlxGrid" newval="ComponentOne\{5461DCB2-F555-462E-AA86-0D974D5733E5}" />
+      <DeleteableDir base="VS2K15Extensions" val="ComponentOne\ComponentOne Studio for LightSwitch HTML5 FlxChrt" newval="ComponentOne\{49C3CF95-5C86-4D9F-A840-FEA4A554F444}" />
+      <DeleteableDir base="VS2K15Extensions" val="ComponentOne\ComponentOne Studio for LightSwitch HTML5 BltGrph" newval="ComponentOne\{74300C17-4687-49F5-86AF-3BB38077D496}" />
+      <DeleteableDir base="VS2K15Extensions" val="ComponentOne\ComponentOne Studio for LightSwitch HTML5 Input" newval="ComponentOne\{332AAE57-33F9-44F8-B76E-EEFEA3B87D7C}" />
+      <DeleteableDir base="VS2K15Extensions" val="ComponentOne\ComponentOne Studio for LightSwitch HTML5 Menu" newval="ComponentOne\{3D5695C7-33AE-4D8E-87D9-775F05FB9D05}" />
+      <DeleteableDir base="VS2K15Extensions" val="ComponentOne\ComponentOne Studio for LightSwitch HTML5 Select" newval="ComponentOne\{41A6B69C-D92B-4F6C-8122-7DDEA371AF15}" />
+    </DeletableDirs>
+    <Dirs>
+      <Dir base="PgmFls" val="ComponentOne\LightSwitch Edition">
+        <Dir name="" nosubdirs="true">
+          <extract value="http://cellar.componentone.com/staging/studio/Product/LightSwitch/RTDir.7z" xval="LSRT.7z"></extract>
+        </Dir>
+      </Dir>
+      <Dir base="MyDocuments" val="ComponentOne Samples\LightSwitch Cloud Business Apps">
+        <Dir name="" nosubdirs="true">
+          <extract value="http://cellar.componentone.com/staging/studio/Product/LightSwitch/Samples.7z" xval="LSSamples.7z"></extract>
+        </Dir>
+      </Dir>
+      <Dir base="C1ShortCutsMenu" val="LightSwitch Desktop">
+        <Dir name="" nosubdirs="true">
+          <extract></extract>
+        </Dir>
+      </Dir>
+      <Dir base="C1ShortCutsMenu" val="LightSwitch HTML">
+        <Dir name="" nosubdirs="true">
+          <extract></extract>
+        </Dir>
+      </Dir>
+      <Dir base="VS2K12IDE" val="Extensions\ComponentOne">
+        <Dir name="" nosubdirs="true">
+          <extract value="http://cellar.componentone.com/staging/studio/Product/LightSwitch/Extensions/LS2K12.7z" xval="LST12.7z"></extract>
+        </Dir>
+      </Dir>
+      <Dir base="VS2K13IDE" val="Extensions\ComponentOne">
+        <Dir name="" nosubdirs="true">
+          <extract value="http://cellar.componentone.com/staging/studio/Product/LightSwitch/Extensions/LS2K13.7z" xval="LST13.7z"></extract>
+        </Dir>
+      </Dir>
+      <Dir base="VS2K15IDE" val="Extensions\ComponentOne">
+        <Dir name="" nosubdirs="true">
+          <extract value="http://cellar.componentone.com/staging/studio/Product/LightSwitch/Extensions/LS2K15.7z" xval="LST15.7z"></extract>
+        </Dir>
+      </Dir>
+    </Dirs>
+    <Files>
+      <FileDir val="Microsoft\VisualStudio\12.0\Addins" base="PgmData" CreateDir="true">
+        <File val="http://cellar.componentone.com/staging/studio/Product/LightSwitch/C1BulbChanger.AddIn" xval="C1BulbChanger.AddIn" CreateDir="true" />
+        <File val="http://cellar.componentone.com/staging/studio/Product/LightSwitch/C1BulbChanger.dll" xval="C1BulbChanger.dll" CreateDir="true" />
+      </FileDir>
+      <FileDir val="Microsoft\VisualStudio\11.0\Addins" base="PgmData" CreateDir="true">
+        <File val="http://cellar.componentone.com/staging/studio/Product/LightSwitch/C1BulbChanger.AddIn" xval="C1BulbChanger.AddIn"  />
+        <File val="http://cellar.componentone.com/staging/studio/Product/LightSwitch/C1BulbChanger.dll" xval="C1BulbChanger.dll"/>
+      </FileDir>
+    </Files>
+
+    <ShortCuts>
+      <ShortCut LongName="LightSwitch Desktop Online Help">
+        <Target base="PgmFls" dir="ComponentOne\LightSwitch Edition">C1LightSwitchDesktopHelp.url</Target>
+        <Location base="C1ShortCutsMenu" dir="LightSwitch Desktop"></Location>
+        <icon>C1NetHelp.ico</icon>
+      </ShortCut>
+      <ShortCut LongName="LightSwitch Desktop Release Notes">
+        <Target base="PgmFls" dir="ComponentOne\LightSwitch Edition">C1LightSwitchDesktopReleaseNotes.doc</Target>
+        <Location base="C1ShortCutsMenu" dir="LightSwitch Desktop"></Location>
+      </ShortCut>
+      <ShortCut LongName="LightSwitch HTML Online Help">
+        <Target base="PgmFls" dir="ComponentOne\LightSwitch Edition">C1LightSwitchHtmlHelp.url</Target>
+        <Location base="C1ShortCutsMenu" dir="LightSwitch HTML"></Location>
+        <icon>C1NetHelp.ico</icon>
+      </ShortCut>
+      <ShortCut LongName="LightSwitch HTML Release Notes">
+        <Target base="PgmFls" dir="ComponentOne\LightSwitch Edition">C1LightSwitchHtmlReleaseNotes.doc</Target>
+        <Location base="C1ShortCutsMenu" dir="LightSwitch HTML"></Location>
+      </ShortCut>
+      <ShortCut LongName="LightSwitch Cloud Business Apps Online Help">
+        <Target base="PgmFls" dir="ComponentOne\LightSwitch Edition">C1LightSwitchWijmoHelp.url</Target>
+        <Location base="C1ShortCutsMenu" dir="LightSwitch HTML"></Location>
+        <icon>C1NetHelp.ico</icon>
+      </ShortCut>
+      <ShortCut LongName="LightSwitch Cloud Business Apps Release Notes">
+        <Target base="PgmFls" dir="ComponentOne\LightSwitch Edition">C1LightSwitchCloudBusinessAppEditionReleaseNotes.doc</Target>
+        <Location base="C1ShortCutsMenu" dir="LightSwitch HTML"></Location>
+      </ShortCut>
+    </ShortCuts>
+    <Blurb>
+      Extensions for the LightSwitch HTML Client (powered by Wijmo) and
+      the Desktop Client (powered by Studio for Silverlight). Includes grids,
+      charts, calendars, OLAP, and more.
+    </Blurb>
+    <ControlRegistry>
+      <Keys>
+        <Key name="DisplayName" type="string" value="ComponentOne Studio for LightSwitch" />
+        <Key name="DisplayVersion" type="string" value="20153.2.1" />
+        <Key name="Publisher" type="string" value="GrapeCity, Inc." />
+        <Key name="URLInfoAbout" type="string" value="http://www.componentone.com" />
+        <Key name="URLUpdateInfo" type="string" value="http://www.componentone.com" />
+        <Key name="Version" type="word" value="2015202" />
+        <Key name="VersionMajor" type="word" value="20152" />
+        <Key name="VersionMinor" type="word" value="2" />
+        <Key name="WindowsInstaller" type="word" value="0" />
+      </Keys>
+    </ControlRegistry>
+  </Product>
+
+
+  <Product name="XapOptimizer" displnm="XapOptimizer" grpnm="Legacy"
+            slntdsplynm="XAO" ISMSI="false"
+              version="20143.3.44" ControlPanelEntry="ComponentOne XapOptimizer" Version="2015 v2" ThemeColor="#10abe4" bckgrnd="http://cellar.componentone.com/ProductImages/xo.png" Size="200" ProgressPanel="xopg">
+    <DeletableDirs>
+      <!--old directories-->
+      <DeleteableDir base="PgmFls" val="ComponentOne\XapOptimizer" newval="ComponentOne\{6689762C-D8E9-4B57-B549-212430494483}"></DeleteableDir>
+      <DeleteableDir base="C1ShortCutsMenu" val="XapOptimizer" newval="{5CE3EF69-7D21-42B3-A3B2-440D0C4049DA}"></DeleteableDir>
+      <!--new directories-->
+      <DeleteableDir base="PgmFls" val="ComponentOne\XapOptimizer Edition" newval="ComponentOne\{61D96553-C8ED-4FC7-8F8A-F5B32518DE2F}"></DeleteableDir>
+
+    </DeletableDirs>
+    <Dirs>
+      <Dir base="PgmFls" val="ComponentOne\XapOptimizer Edition">
+        <Dir name="" nosubdirs="true">
+          <extract value="http://cellar.componentone.com/staging/studio/Product/XapOptimizer/RtDir.7z"></extract>
+
+        </Dir>
+      </Dir>
+      <Dir base="C1ShortCutsMenu" val="XapOptimizer">
+        <Dir name="" nosubdirs="true">
+          <extract></extract>
+        </Dir>
+      </Dir>
+    </Dirs>
+    <ShortCuts>
+      <ShortCut LongName="Readme">
+        <Target base="PgmFls" dir="ComponentOne\XapOptimizer Edition">readme.txt</Target>
+        <Location base="C1ShortCutsMenu" dir="XapOptimizer"></Location>
+      </ShortCut>
+      <ShortCut LongName="XapOptimizer">
+        <Target base="PgmFls" dir="ComponentOne\XapOptimizer Edition\bin">XapOptimizer.exe</Target>
+        <Location base="C1ShortCutsMenu" dir="XapOptimizer"></Location>
+      </ShortCut>
+    </ShortCuts>
+    <Blurb>
+      In one click, reduce the size of your Silverlight
+      apps up to 70% and secure your code with obfuscation.
+    </Blurb>
+    <ControlRegistry>
+      <Keys>
+        <Key name="DisplayName" type="string" value="ComponentOne XapOptimizer" />
+        <Key name="DisplayVersion" type="string" value="20143.3.44" />
+        <Key name="Publisher" type="string" value="GrapeCity, Inc." />
+        <Key name="URLInfoAbout" type="string" value="http://www.componentone.com" />
+        <Key name="URLUpdateInfo" type="string" value="http://www.componentone.com" />
+        <Key name="Version" type="word" value="2014331" />
+        <Key name="VersionMajor" type="word" value="20143" />
+        <Key name="VersionMinor" type="word" value="1" />
+        <Key name="WindowsInstaller" type="word" value="0" />
+      </Keys>
+    </ControlRegistry>
+  </Product>
+
+  <Product name="IntelliSpell" displnm="Intellispell" grpnm="Legacy" version="20153.1.11"
+    slntdsplynm="INS" ISMSI="false"
+    ControlPanelEntry="ComponentOne IntelliSpell for Visual Studio" ThemeColor="#f16b0a" Version="2015 v2" bckgrnd="http://cellar.componentone.com/ProductImages/is.png" Size="529" ProgressPanel="inpg">
+    <InstallCondition>(('VS2K10Installed'&lt;&gt;'' OR 'VS2K12Installed'&lt;&gt;'' OR 'VS2K13Installed'&lt;&gt;'' OR 'VS2K15Installed'&lt;&gt;''))</InstallCondition>
+    <DeletableDirs>
+      <!--old directories-->
+      <DeleteableDir base="PgmFls" val="ComponentOne\IntelliSpell" newval="ComponentOne\{499CEA27-4DBD-4B8E-8AEA-A85BA227E970}"></DeleteableDir>
+      <DeleteableDir base="C1ShortCutsMenu" val="IntelliSpell" newval="{7185908D-3F20-476D-8596-5F20E7A7E31C}"></DeleteableDir>
+      <!--new directories-->
+      <DeleteableDir base="PgmFls" val="ComponentOne\IntelliSpell Edition" newval="ComponentOne\{FE1E6C01-D014-428B-AC3C-DFED009824A6}"></DeleteableDir>
+      <DeleteableDir base="VS2K12Extensions" val="ComponentOne\C1IntelliSpell" newval="ComponentOne\{D8CEB21B-C468-49AE-95A0-E5199F2FAC67}"></DeleteableDir>
+      <DeleteableDir base="VS2K13Extensions" val="ComponentOne\C1IntelliSpell" newval="ComponentOne\{428149E7-E6D9-441F-9790-05F67234ED3E}"></DeleteableDir>
+      <DeleteableDir base="VS2K10Extensions" val="ComponentOne\C1IntelliSpell" newval="ComponentOne\{B0549394-4DA5-4AC4-9123-C1212D93EEE5}"></DeleteableDir>
+      <DeleteableDir base="VS2K15Extensions" val="ComponentOne\C1IntelliSpell" newval="ComponentOne\{70BFFC3E-5BAB-4E0F-8BFE-92CDC15409CB}"></DeleteableDir>
+
+    </DeletableDirs>
+    <Dirs>
+      <Dir base="PgmFls" val="ComponentOne\IntelliSpell Edition">
+        <Dir name="" nosubdirs="true">
+          <extract value="http://cellar.componentone.com/staging/studio/Product/IntelliSpell/Rtdir.7z"></extract>
+        </Dir>
+      </Dir>
+      <Dir base="C1ShortCutsMenu" val="IntelliSpell">
+        <extract></extract>
+      </Dir>
+      <Dir base="VS2K10IDE" val="Extensions\ComponentOne">
+        <Dir name="" nosubdirs="true">
+          <extract value="http://cellar.componentone.com/staging/studio/Product/IntelliSpell/C1IntelliSpell.7z" xval="C1IntelliSpell2010.7z"></extract>
+        </Dir>
+      </Dir>
+      <Dir base="VS2K12IDE" val="Extensions\ComponentOne">
+        <Dir name="" nosubdirs="true">
+          <extract value="http://cellar.componentone.com/staging/studio/Product/IntelliSpell/C1IntelliSpell.7z" xval="C1IntelliSpell2012.7z"></extract>
+        </Dir>
+      </Dir>
+      <Dir base="VS2K13IDE" val="Extensions\ComponentOne">
+        <Dir name="" nosubdirs="true">
+          <extract value="http://cellar.componentone.com/staging/studio/Product/IntelliSpell/C1IntelliSpell.7z" xval="C1IntelliSpell2013.7z"></extract>
+        </Dir>
+      </Dir>
+      <Dir base="VS2K15IDE" val="Extensions\ComponentOne">
+        <Dir name="" nosubdirs="true">
+          <extract value="http://cellar.componentone.com/staging/studio/Product/IntelliSpell/C1IntelliSpell.7z" xval="C1IntelliSpell2015.7z"></extract>
+        </Dir>
+      </Dir>
+    </Dirs>
+    <Blurb>
+      Spell-check code, comments, strings, HTML, XML, resources,
+      and general text without ever leaving the Microsoft
+      Visual Studio environment.
+    </Blurb>
+    <ShortCuts>
+
+      <ShortCut LongName="ReadMe">
+        <Target base="PgmFls" dir="ComponentOne\IntelliSpell Edition">readme.txt</Target>
+        <Location base="C1ShortCutsMenu" dir="IntelliSpell"></Location>
+      </ShortCut>
+    </ShortCuts>
+
+    <ControlRegistry>
+      <Keys>
+        <Key name="DisplayName" type="string" value="ComponentOne IntelliSpell for Visual Studio" />
+        <Key name="DisplayVersion" type="string" value="20153.1.11" />
+        <Key name="Publisher" type="string" value="GrapeCity, Inc." />
+        <Key name="URLInfoAbout" type="string" value="http://www.componentone.com" />
+        <Key name="URLUpdateInfo" type="string" value="http://www.componentone.com" />
+        <Key name="Version" type="word" value="2015216" />
+        <Key name="VersionMajor" type="word" value="20152" />
+        <Key name="VersionMinor" type="word" value="1" />
+        <Key name="WindowsInstaller" type="word" value="0" />
+      </Keys>
+    </ControlRegistry>
+  </Product>
+
+  <Product name="ActiveX" displnm="ActiveX"
+              slntdsplynm="ACX"
+                grpnm="Legacy" version="20153.1.10"
+             ControlPanelEntry="ComponentOne Studio for ActiveX" ThemeColor="#104987" Version="2015 v1"
+             ISMSI="true"
+             bckgrnd="http://cellar.componentone.com/ProductImages/ActiveX.png" Size="17200" ProgressPanel="axpg">
+    <msis>
+      <extract value="http://cellar.componentone.com/staging/studio/Product/ActiveX/C1StudioActiveX.msi" xval="C1StudioActiveX.msi" logfl="C1StudioActiveX.log" PGUID="{919ACFCD-EE1E-4007-9EC3-338D1BC0E945}"></extract>
+      <extract value="http://cellar.componentone.com/staging/studio/Product/ActiveX/C1StudioActiveX64.msi" xval="C1StudioActiveX64.msi" logfl="C1StudioActiveX64.log" PGUID="{A223B816-580D-4310-826C-7FF0F709B575}"></extract>
+    </msis>
+    <Blurb>
+      Full suite of the most popular ActiveX components
+      including controls like True DBGrid and VSFlexGrid.
+    </Blurb>
+    <ControlRegistry>
+      <Keys>
+        <Key name="DisplayName" type="string" value="ComponentOne Studio for ActiveX" />
+        <Key name="DisplayVersion" type="string" value="20153.1.10" />
+        <Key name="Publisher" type="string" value="GrapeCity, Inc." />
+        <Key name="URLInfoAbout" type="string" value="http://www.componentone.com" />
+        <Key name="URLUpdateInfo" type="string" value="http://www.componentone.com" />
+        <Key name="Version" type="word" value="2014331" />
+        <Key name="VersionMajor" type="word" value="20143" />
+        <Key name="VersionMinor" type="word" value="1" />
+        <Key name="WindowsInstaller" type="word" value="0" />
+      </Keys>
+    </ControlRegistry>
+  </Product>
+
+  <Product name="WebApi" displnm="WebApi" grpnm="Web" version="20153.1.12"
+   slntdsplynm="API" ISMSI="true"
+   ThemeColor="#1b5e20" ControlPanelEntry="ComponentOne Web API" Version="2015 v2" bckgrnd="http://cellar.componentone.com/ProductImages/API.png" Size="4400" ProgressPanel="wbapi">
+
+    <msis>
+      <extract value="http://cellar.componentone.com/staging/studio/Product/WebApi/C1WebApi.msi" xval="C1WebApi.msi" logfl="C1WebAPI.log" PGUID="{45DB7606-E7F8-4A78-802A-A0DD09C95856}"></extract>
+
+    </msis>
+
+    <Blurb>
+      Import spreadsheets and export any data management or visualization control to the format of your choice.
+      Create a pie chart and export it to an image, export your grid to Excel, or import a Excel sheet into a FlexGrid.
+    </Blurb>
+    <ControlRegistry>
+      <Keys>
+        <Key name="DisplayName" type="string" value="ComponentOne Web API" />
+        <Key name="DisplayVersion" type="string" value="20153.1.12" />
+        <Key name="Publisher" type="string" value="GrapeCity, Inc." />
+        <Key name="URLInfoAbout" type="string" value="http://www.componentone.com" />
+        <Key name="URLUpdateInfo" type="string" value="http://www.componentone.com" />
+        <Key name="Version" type="word" value="2015202" />
+        <Key name="VersionMajor" type="word" value="20152" />
+        <Key name="VersionMinor" type="word" value="2" />
+        <Key name="WindowsInstaller" type="word" value="0" />
+      </Keys>
+    </ControlRegistry>
+  </Product>
+
+  <Product name="UWP" displnm="UWP" grpnm="Windows"
+               slntdsplynm="UWP"
+               ISMSI="false"
+                 version="20153.2.1" ControlPanelEntry="ComponentOne UWP" Version="2015 v3" ThemeColor="#4655ca" bckgrnd="http://cellar.componentone.com/ProductImages/UWP.png" Size="2000" ProgressPanel="uwppnl">
+    <InstallCondition><![CDATA[(('ISWIN10' <> '') AND ('ISWINTENSDK' <> '') AND ('VS2K15Installed')<>'')]]></InstallCondition>
+    <DeletableDirs>
+      <DeleteableDir base="PgmFls" val="ComponentOne\UWP Edition" newval="ComponentOne\{72B4AB69-3BDE-4A90-986E-F512759E9FB9}"></DeleteableDir>
+      <DeleteableDir base="MyDocuments" val="ComponentOne Samples\UWP" newval="ComponentOne Samples\{0F66AAEC-34F4-4147-9C60-0281597169FA}"></DeleteableDir>
+      <DeleteableDir base="C1ShortCutsMenu" val="UWP" newval="{12094633-B05A-417B-BAEE-538CE25BB6ED}"></DeleteableDir>
+      <DeleteableDir base="Win10SDKDir" val="C1.UWP" newval="{8d14618b-3063-45e3-aba9-78821b280eab}" />
+      <DeleteableDir base="Win10SDKDir" val="C1.UWP.Automation" newval="{940ca9b1-b5b9-4cb7-a67e-488f460f03f4}" />
+      <DeleteableDir base="Win10SDKDir" val="C1.UWP.BarCode" newval="{70c2076d-6d5d-4417-86f2-facdde8f6937}" />
+      <DeleteableDir base="Win10SDKDir" val="C1.UWP.Calendar" newval="{c0ac8a78-e394-4962-96b7-4d1734c8a44a}" />
+      <DeleteableDir base="Win10SDKDir" val="C1.UWP.DateTimeEditors" newval="{784931b6-38cc-4885-8089-f7dcfa47cf76}" />
+      <DeleteableDir base="Win10SDKDir" val="C1.UWP.DX" newval="{638caa5b-69be-444b-a795-6c3ca4957767}" />
+      <DeleteableDir base="Win10SDKDir" val="C1.UWP.Excel" newval="{3af0aa6b-e34f-436a-93a8-dcebdff4096d}" />
+      <DeleteableDir base="Win10SDKDir" val="C1.UWP.Extended" newval="{8c29bbde-372b-4f01-b167-ccf41528c4e1}" />
+      <DeleteableDir base="Win10SDKDir" val="C1.UWP.FlexGrid" newval="{f1f17ff1-c652-45d3-bfc0-ff1d6b1bd388}" />
+      <DeleteableDir base="Win10SDKDir" val="C1.UWP.Gauge" newval="{97f6447d-e377-4509-ab8c-7ef2521c83a7}" />
+      <DeleteableDir base="Win10SDKDir" val="C1.UWP.Imaging" newval="{5e3763d9-1a66-42b1-99fc-87694d970aec}" />
+      <DeleteableDir base="Win10SDKDir" val="C1.UWP.Maps" newval="{4a69daac-0b91-43e3-83fd-80ab9d53bcbd}" />
+      <DeleteableDir base="Win10SDKDir" val="C1.UWP.OrgChart" newval="{a11dc408-a3c8-4ed0-b64e-6fc544f7e634}" />
+      <DeleteableDir base="Win10SDKDir" val="C1.UWP.Pdf" newval="{cd1ac188-87ea-42b0-a342-5ab47f1bd0cc}" />
+      <DeleteableDir base="Win10SDKDir" val="C1.UWP.PdfViewer" newval="{5d546d8e-63a0-42df-8b7f-6ab630af3eb0}" />
+      <DeleteableDir base="Win10SDKDir" val="C1.UWP.RichTextBox" newval="{09d8cbda-5915-4864-9d92-a237db861e04}" />
+      <DeleteableDir base="Win10SDKDir" val="C1.UWP.RichTextBox.AppBar" newval="{53e347d8-26e8-43ab-bddc-58ed7dbcc950}" />
+      <DeleteableDir base="Win10SDKDir" val="C1.UWP.RichTextBox.Menu" newval="{78e6f0e1-13d6-469d-aee0-44d39ba12852}" />
+      <DeleteableDir base="Win10SDKDir" val="C1.UWP.RichTextBox.PdfFilter" newval="{e377683d-99a0-4b81-be59-a4d1da5cb227}" />
+      <DeleteableDir base="Win10SDKDir" val="C1.UWP.Schedule" newval="{cbbf347a-8a3d-4b07-8e2f-2083134f210e}" />
+      <DeleteableDir base="Win10SDKDir" val="C1.UWP.Sparkline" newval="{8505a4fb-d92b-4661-bd7b-a3eb4d79105f}" />
+      <DeleteableDir base="Win10SDKDir" val="C1.UWP.SpellChecker" newval="{27689c40-7901-4aba-917e-13b51f5a9874}" />
+      <DeleteableDir base="Win10SDKDir" val="C1.UWP.Tile" newval="{68cb4061-281f-4d4f-aee2-c4f766e2a139}" />
+      <DeleteableDir base="Win10SDKDir" val="C1.UWP.TileView" newval="{7d9f305c-eb7e-4f20-a2bb-cb68cd8a2806}" />
+      <DeleteableDir base="Win10SDKDir" val="C1.UWP.Zip" newval="{0ef57dd5-fba8-440a-9c3e-d2e1642ca2d6}" />
+    </DeletableDirs>
+    <Dirs>
+      <Dir base="PgmFls" val="ComponentOne\UWP Edition">
+        <Dir name="" nosubdirs="true">
+          <extract value="http://cellar.componentone.com/staging/studio/Product/UWP/rtdir.7z" xval="UWPR.7z"></extract>
+
+        </Dir>
+      </Dir>
+      <Dir base="MyDocuments" val="ComponentOne Samples\UWP">
+        <Dir name="" nosubdirs="true">
+          <extract value="http://cellar.componentone.com/staging/studio/Product/UWP/Samples.7z" xval="UWPS.7z"></extract>
+        </Dir>
+      </Dir>
+      <Dir base="Win10SDKDir" val="">
+        <Dir name="C1.UWP" nosubdirs="true">
+          <extract value="http://cellar.componentone.com/staging/studio/Product/UWP/C1.UWP.7z" xval="UWPXW1.7z" />
+        </Dir>
+        <Dir name="C1.UWP.Automation" nosubdirs="true">
+          <extract value="http://cellar.componentone.com/staging/studio/Product/UWP/C1.UWP.Automation.7z" xval="UWPXW2.7z" />
+        </Dir>
+        <Dir name="C1.UWP.BarCode" nosubdirs="true">
+          <extract value="http://cellar.componentone.com/staging/studio/Product/UWP/C1.UWP.BarCode.7z" xval="UWPXW3.7z" />
+        </Dir>
+        <Dir name="C1.UWP.Calendar" nosubdirs="true">
+          <extract value="http://cellar.componentone.com/staging/studio/Product/UWP/C1.UWP.Calendar.7z" xval="UWPXW4.7z" />
+        </Dir>
+        <Dir name="C1.UWP.DateTimeEditors" nosubdirs="true">
+          <extract value="http://cellar.componentone.com/staging/studio/Product/UWP/C1.UWP.DateTimeEditors.7z" xval="UWPXW5.7z" />
+        </Dir>
+        <Dir name="C1.UWP.DX" nosubdirs="true">
+          <extract value="http://cellar.componentone.com/staging/studio/Product/UWP/C1.UWP.DX.7z" xval="UWPXW6.7z" />
+        </Dir>
+        <Dir name="C1.UWP.Excel" nosubdirs="true">
+          <extract value="http://cellar.componentone.com/staging/studio/Product/UWP/C1.UWP.Excel.7z" xval="UWPXW7.7z" />
+        </Dir>
+        <Dir name="C1.UWP.Extended" nosubdirs="true">
+          <extract value="http://cellar.componentone.com/staging/studio/Product/UWP/C1.UWP.Extended.7z" xval="UWPXW8.7z" />
+        </Dir>
+        <Dir name="C1.UWP.FlexGrid" nosubdirs="true">
+          <extract value="http://cellar.componentone.com/staging/studio/Product/UWP/C1.UWP.FlexGrid.7z" xval="UWPXW9.7z" />
+        </Dir>
+        <Dir name="C1.UWP.Gauge" nosubdirs="true">
+          <extract value="http://cellar.componentone.com/staging/studio/Product/UWP/C1.UWP.Gauge.7z" xval="UWPXW10.7z" />
+        </Dir>
+        <Dir name="C1.UWP.Imaging" nosubdirs="true">
+          <extract value="http://cellar.componentone.com/staging/studio/Product/UWP/C1.UWP.Imaging.7z" xval="UWPXW11.7z" />
+        </Dir>
+        <Dir name="C1.UWP.Maps" nosubdirs="true">
+          <extract value="http://cellar.componentone.com/staging/studio/Product/UWP/C1.UWP.Maps.7z" xval="UWPXW12.7z" />
+        </Dir>
+        <Dir name="C1.UWP.OrgChart" nosubdirs="true">
+          <extract value="http://cellar.componentone.com/staging/studio/Product/UWP/C1.UWP.OrgChart.7z" xval="UWPXW13.7z" />
+        </Dir>
+        <Dir name="C1.UWP.Pdf" nosubdirs="true">
+          <extract value="http://cellar.componentone.com/staging/studio/Product/UWP/C1.UWP.Pdf.7z" xval="UWPXW14.7z" />
+        </Dir>
+        <Dir name="C1.UWP.PdfViewer" nosubdirs="true">
+          <extract value="http://cellar.componentone.com/staging/studio/Product/UWP/C1.UWP.PdfViewer.7z" xval="UWPXW15.7z" />
+        </Dir>
+        <Dir name="C1.UWP.RichTextBox" nosubdirs="true">
+          <extract value="http://cellar.componentone.com/staging/studio/Product/UWP/C1.UWP.RichTextBox.7z" xval="UWPXW16.7z" />
+        </Dir>
+        <Dir name="C1.UWP.RichTextBox.AppBar" nosubdirs="true">
+          <extract value="http://cellar.componentone.com/staging/studio/Product/UWP/C1.UWP.RichTextBox.AppBar.7z" xval="UWPXW17.7z" />
+        </Dir>
+        <Dir name="C1.UWP.RichTextBox.Menu" nosubdirs="true">
+          <extract value="http://cellar.componentone.com/staging/studio/Product/UWP/C1.UWP.RichTextBox.Menu.7z" xval="UWPXW18.7z" />
+        </Dir>
+        <Dir name="C1.UWP.RichTextBox.PdfFilter" nosubdirs="true">
+          <extract value="http://cellar.componentone.com/staging/studio/Product/UWP/C1.UWP.RichTextBox.PdfFilter.7z" xval="UWPXW19.7z" />
+        </Dir>
+        <Dir name="C1.UWP.Schedule" nosubdirs="true">
+          <extract value="http://cellar.componentone.com/staging/studio/Product/UWP/C1.UWP.Schedule.7z" xval="UWPXW20.7z" />
+        </Dir>
+        <Dir name="C1.UWP.Sparkline" nosubdirs="true">
+          <extract value="http://cellar.componentone.com/staging/studio/Product/UWP/C1.UWP.Sparkline.7z" xval="UWPXW21.7z" />
+        </Dir>
+        <Dir name="C1.UWP.SpellChecker" nosubdirs="true">
+          <extract value="http://cellar.componentone.com/staging/studio/Product/UWP/C1.UWP.SpellChecker.7z" xval="UWPXW22.7z" />
+        </Dir>
+        <Dir name="C1.UWP.Tile" nosubdirs="true">
+          <extract value="http://cellar.componentone.com/staging/studio/Product/UWP/C1.UWP.Tile.7z" xval="UWPXW23.7z" />
+        </Dir>
+        <Dir name="C1.UWP.TileView" nosubdirs="true">
+          <extract value="http://cellar.componentone.com/staging/studio/Product/UWP/C1.UWP.TileView.7z" xval="UWPXW24.7z" />
+        </Dir>
+        <Dir name="C1.UWP.Zip" nosubdirs="true">
+          <extract value="http://cellar.componentone.com/staging/studio/Product/UWP/C1.UWP.Zip.7z" xval="UWPXW25.7z" />
+        </Dir>
+        <Dir name="rtdir" nosubdirs="true">
+          <extract value="http://cellar.componentone.com/staging/studio/Product/UWP/rtdir.7z" xval="UWPXW26.7z" />
+        </Dir>
+        <Dir name="Samples" nosubdirs="true">
+          <extract value="http://cellar.componentone.com/staging/studio/Product/UWP/Samples.7z" xval="UWPXW27.7z" />
+        </Dir>
+      </Dir>
+      <Dir base="C1ShortCutsMenu" val="UWP">
+        <Dir name="" nosubdirs="true">
+          <extract></extract>
+        </Dir>
+      </Dir>
+    </Dirs>
+    <ShortCuts>
+      <ShortCut LongName="Readme">
+        <Target base="PgmFls" dir="ComponentOne\UWP Edition">readme.txt</Target>
+        <Location base="C1ShortCutsMenu" dir="UWP"></Location>
+      </ShortCut>
+      <ShortCut LongName="ChangeLog">
+        <Target base="PgmFls" dir="ComponentOne\UWP Edition">ChangeLog.html</Target>
+        <Location base="C1ShortCutsMenu" dir="UWP"></Location>
+        <icon>C1NetHelp.ico</icon>
+      </ShortCut>
+      <ShortCut LongName="ControlExplorer">
+        <Target base="MyDocuments" dir="ComponentOne Samples\UWP\General\CS\ControlExplorer">ControlExplorer2015.sln</Target>
+        <Location base="C1ShortCutsMenu" dir="UWP" />
+      </ShortCut>
+    </ShortCuts>
+    <Blurb>
+      Over 40 UI controls for Universal Windows Platform
+    </Blurb>
+    <ControlRegistry>
+      <Keys>
+        <Key name="DisplayName" type="string" value="ComponentOne UWP" />
+        <Key name="DisplayVersion" type="string" value="20153.2.1" />
+        <Key name="Publisher" type="string" value="GrapeCity, Inc." />
+        <Key name="URLInfoAbout" type="string" value="http://www.componentone.com" />
+        <Key name="URLUpdateInfo" type="string" value="http://www.componentone.com" />
+        <Key name="Version" type="word" value="2014331" />
+        <Key name="VersionMajor" type="word" value="20143" />
+        <Key name="VersionMinor" type="word" value="1" />
+        <Key name="WindowsInstaller" type="word" value="0" />
+      </Keys>
+    </ControlRegistry>
+  </Product>
+
+  <Common aspnetlicx="http://cellar.componentone.com/staging/studio/ASPNETLICX.7z">
+    <Dirs>
+      <Dir base="MyDocuments" val="">
+        <Dir name="ComponentOne Samples" nosubdirs="true">
+          <extract value="http://cellar.componentone.com/staging/studio/Product/WinForms/CommonDB.7z" xval="CommonDB.7z">
+            <productcondition>WinForms,WPF</productcondition>
+          </extract>
+        </Dir>
+      </Dir>
+
+      <Dir base="CmnFls" val="">
+        <Dir name="ComponentOne Shared" nosubdirs="true">
+          <extract value="http://cellar.componentone.com/staging/studio/common.7z" xval="Common.7z">
+
+          </extract>
+        </Dir>
+        <Dir name="ComponentOne Icons" nosubdirs="true">
+          <extract value="http://cellar.componentone.com/staging/studio/C1Icons.7z" xval="C1Icons.7z"></extract>
+        </Dir>
+      </Dir>
+      <Dir base="PgmFls" val="ComponentOne">
+        <Dir name="" nosubdirs="true">
+          <extract value="http://cellar.componentone.com/staging/studio/C1Live.7z" xval="C1Live.7z"></extract>
+        </Dir>
+        <Dir name="" nosubdirs="true">
+          <extract value="http://cellar.componentone.com/staging/studio/Dictionaries.7z" xval="Dictionaries.7z"></extract>
+        </Dir>
+      </Dir>
+      <Dir base="PgmFls" val="ComponentOne\Apps\v2.0">
+        <Dir name="" nosubdirs="true">
+          <extract value="http://cellar.componentone.com/staging/studio/Product/WinForms/Apps/Two.7z" xval="Apps2.7z">
+            <productcondition>WinForms,ASP.NET Web Forms,WPF</productcondition>
+          </extract>
+        </Dir>
+      </Dir>
+      <Dir base="PgmFls" val="ComponentOne\Apps\v4.0">
+        <Dir name="" nosubdirs="true">
+          <extract value="http://cellar.componentone.com/staging/studio/Product/WinForms/Apps/Four.7z" xval="Apps4.7z">
+            <productcondition>WinForms,ASP.NET Web Forms,WPF</productcondition>
+          </extract>
+        </Dir>
+      </Dir>
+    </Dirs>
+
+    <ShortCuts>
+
+      <ShortCut LongName="C1LicenseActivation">
+        <Target base="ComnFls" dir="ComponentOne Shared">C1LicenseActivation.exe</Target>
+        <Location base="C1ShortCutsMenu" dir="" />
+        <Arguments>
+          <arg><![CDATA[/a]]></arg>
+        </Arguments>
+      </ShortCut>
+      <ShortCut LongName="C1LicenseDeActivation">
+        <Target base="ComnFls" dir="ComponentOne Shared">C1LicenseActivation.exe</Target>
+        <Location base="C1ShortCutsMenu" dir="" />
+        <Arguments>
+          <arg><![CDATA[/d]]></arg>
+        </Arguments>
+      </ShortCut>
+      <ShortCut LongName="C1Live">
+        <Target base="PgmFls" dir="ComponentOne\C1Live">C1LiveUI.2.exe</Target>
+        <Location base="C1ShortCutsMenu" dir="" />
+      </ShortCut>
+      <ShortCut LongName="C1ProjectUpdater">
+        <Target base="ComnFls" dir="ComponentOne Shared\C1ProjectUpdater">C1ProjectUpdater.exe</Target>
+        <Location base="C1ShortCutsMenu" dir="" />
+      </ShortCut>
+      <ShortCut LongName="Component One">
+        <Target base="C1ShortCutsMenu" dir=""></Target>
+        <Location base="DeskTop" dir="" />
+        <icon>C1UniversalIcon.ico</icon>
+        <condition><![CDATA['ISWIN81'<>'' AND 'ActiveXInstalled'<>'Installed']]></condition>
+      </ShortCut>
+      <ShortCut LongName="ComponentOne Website">
+        <Target base="ComnFls" dir="ComponentOne Shared\Urls">C1.url</Target>
+        <Location base="C1ShortCutsMenu" dir="" />
+        <icon>C1NetHelp.ico</icon>
+      </ShortCut>
+    </ShortCuts>
+  </Common>
+  <Licensing>
+    <command><![CDATA[/np /i:20153,SE,S8,44 /as:SU31500-T8-999999-C1-EL6WCVF]]></command>
+  </Licensing>
+  <Fail>
+    <Fails ErrorMsg="Installation requires Visual Studio 2015">
+      <Check>VS2K15Installed</Check>
+    </Fails>
+    <Fails ErrorMsg="Installation requires Visual Studio 2010 or above">
+      <Check>VS2K10Installed</Check>
+      <Check>VS2K12Installed</Check>
+      <Check>VS2K13Installed</Check>
+
+    </Fails>
+    <Fails ErrorMsg="Installation requires SilverLight 5.0">
+      <Check>ISSL50INSTALLED</Check>
+    </Fails>
+    <Fails ErrorMsg="Minimum Windows 8.1 is required">
+      <Check>ISWIN81</Check>
+    </Fails>
+    <Fails ErrorMsg=".NET FrameWork 3.5 or above is required">
+      <Check>ISNET35</Check>
+      <Check>ISNET40</Check>
+      <Check>ISNET45</Check>
+    </Fails>
+    <Fails ErrorMsg="Installation requires Windows 10 SDK Kit">
+      <Check>ISWINTENSDK</Check>
+    </Fails>
+    <Fails ErrorMsg="Installation requires Windows 10 Operating System">
+      <Check>ISWIN10</Check>
+    </Fails>
+  </Fail>
+</Products>
